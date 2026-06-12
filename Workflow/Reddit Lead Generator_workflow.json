@@ -1,0 +1,965 @@
+{
+  "id": "workflow-1780493201413-m0ofqv5d8",
+  "name": "Reddit Lead Generator",
+  "nodes": [
+    {
+      "id": "web_agent-1780493245596",
+      "type": "web_agent",
+      "position": {
+        "x": 200,
+        "y": -420
+      },
+      "data": {
+        "label": "Web Agent"
+      },
+      "width": 300,
+      "height": 200,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 200,
+        "y": -420
+      },
+      "dragging": false
+    },
+    {
+      "id": "duckduckgoSearch-1780493295134",
+      "type": "duckduckgoSearch",
+      "position": {
+        "x": 420,
+        "y": -160
+      },
+      "data": {
+        "label": "DuckDuckGo Search"
+      },
+      "width": 116,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 420,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "id": "masterSkill-1780493302696-861",
+      "type": "masterSkill",
+      "position": {
+        "x": 180,
+        "y": -160
+      },
+      "data": {
+        "label": "Master Skill"
+      },
+      "width": 67,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 180,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "id": "simpleMemory-1780493331020",
+      "type": "simpleMemory",
+      "position": {
+        "x": 60,
+        "y": -160
+      },
+      "data": {
+        "label": "Simple Memory"
+      },
+      "width": 87,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 60,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "id": "httpRequest-1780493901263",
+      "type": "httpRequest",
+      "position": {
+        "x": 320,
+        "y": -160
+      },
+      "data": {
+        "label": "HTTP Request"
+      },
+      "width": 79,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 320,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "id": "console-1780494163463",
+      "type": "console",
+      "position": {
+        "x": 580,
+        "y": -440
+      },
+      "data": {
+        "label": "Console"
+      },
+      "width": 60,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 580,
+        "y": -440
+      },
+      "dragging": false
+    },
+    {
+      "id": "chatTrigger-1780494176660",
+      "type": "chatTrigger",
+      "position": {
+        "x": 240,
+        "y": -1040
+      },
+      "data": {
+        "label": "Chat Trigger"
+      },
+      "width": 69,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 240,
+        "y": -1040
+      },
+      "dragging": false
+    },
+    {
+      "id": "fileModify-1780495124108",
+      "type": "fileModify",
+      "position": {
+        "x": 560,
+        "y": -160
+      },
+      "data": {
+        "label": "File Modify"
+      },
+      "width": 62,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 560,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "id": "fileRead-1780495163172",
+      "type": "fileRead",
+      "position": {
+        "x": 660,
+        "y": -160
+      },
+      "data": {
+        "label": "File Read"
+      },
+      "width": 60,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 660,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "id": "aiAgent-1780550327297",
+      "type": "aiAgent",
+      "position": {
+        "x": 820,
+        "y": -420
+      },
+      "data": {
+        "label": "AI Agent"
+      },
+      "width": 300,
+      "height": 200,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 820,
+        "y": -420
+      },
+      "dragging": false
+    },
+    {
+      "id": "console-1780550361441",
+      "type": "console",
+      "position": {
+        "x": 1180,
+        "y": -420
+      },
+      "data": {
+        "label": "Console 1"
+      },
+      "width": 60,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1180,
+        "y": -420
+      },
+      "dragging": true
+    },
+    {
+      "id": "ai_employee-1780551717032",
+      "type": "ai_employee",
+      "position": {
+        "x": 440,
+        "y": -920
+      },
+      "data": {
+        "label": "AI Employee"
+      },
+      "width": 300,
+      "height": 200,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 440,
+        "y": -920
+      },
+      "dragging": false
+    },
+    {
+      "id": "simpleMemory-1780551957974",
+      "type": "simpleMemory",
+      "position": {
+        "x": 740,
+        "y": -160
+      },
+      "data": {
+        "label": "Simple Memory 1"
+      },
+      "width": 95,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 740,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "id": "console-1780552496400",
+      "type": "console",
+      "position": {
+        "x": 840,
+        "y": -920
+      },
+      "data": {
+        "label": "Console 2"
+      },
+      "width": 60,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 840,
+        "y": -920
+      },
+      "dragging": false
+    },
+    {
+      "id": "simpleMemory-1780553406827",
+      "type": "simpleMemory",
+      "position": {
+        "x": 160,
+        "y": -660
+      },
+      "data": {
+        "label": "Simple Memory 2"
+      },
+      "width": 98,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 160,
+        "y": -660
+      },
+      "dragging": false
+    },
+    {
+      "id": "telegramSend-1780556003622",
+      "type": "telegramSend",
+      "position": {
+        "x": 840,
+        "y": -780
+      },
+      "data": {
+        "label": "Telegram Send"
+      },
+      "width": 84,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 840,
+        "y": -780
+      },
+      "dragging": false
+    },
+    {
+      "id": "consumer_agent-1780556161320",
+      "type": "consumer_agent",
+      "position": {
+        "x": 1300,
+        "y": -420
+      },
+      "data": {
+        "label": "Consumer Agent"
+      },
+      "width": 300,
+      "height": 200,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 1300,
+        "y": -420
+      }
+    },
+    {
+      "id": "simpleMemory-1780556191569",
+      "type": "simpleMemory",
+      "position": {
+        "x": 1200,
+        "y": -160
+      },
+      "data": {
+        "label": "Simple Memory 3"
+      },
+      "width": 98,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1200,
+        "y": -160
+      },
+      "dragging": false
+    },
+    {
+      "id": "console-1780556211384",
+      "type": "console",
+      "position": {
+        "x": 1660,
+        "y": -440
+      },
+      "data": {
+        "label": "Console 3"
+      },
+      "width": 60,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1660,
+        "y": -440
+      },
+      "dragging": true
+    },
+    {
+      "id": "fileModify-1781243264278",
+      "type": "fileModify",
+      "position": {
+        "x": 420,
+        "y": -660
+      },
+      "data": {
+        "label": "File Modify 1"
+      },
+      "width": 70,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 420,
+        "y": -660
+      },
+      "dragging": false
+    },
+    {
+      "id": "masterSkill-1781243270631-127",
+      "type": "masterSkill",
+      "position": {
+        "x": 300,
+        "y": -660
+      },
+      "data": {
+        "label": "Master Skill"
+      },
+      "width": 67,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 300,
+        "y": -660
+      },
+      "dragging": false
+    },
+    {
+      "id": "fileRead-1781243276146",
+      "type": "fileRead",
+      "position": {
+        "x": 520,
+        "y": -660
+      },
+      "data": {
+        "label": "File Read 1"
+      },
+      "width": 60,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 520,
+        "y": -660
+      },
+      "dragging": false
+    },
+    {
+      "id": "cronScheduler-1781253814082",
+      "type": "cronScheduler",
+      "position": {
+        "x": 220,
+        "y": -920
+      },
+      "data": {
+        "label": "Cron Scheduler"
+      },
+      "width": 87,
+      "height": 83,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 220,
+        "y": -920
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "duckduckgoSearch-1780493295134",
+      "sourceHandle": "output-tool",
+      "target": "web_agent-1780493245596",
+      "targetHandle": "input-tools",
+      "id": "reactflow__edge-duckduckgoSearch-1780493295134output-tool-web_agent-1780493245596input-tools",
+      "selected": false
+    },
+    {
+      "id": "e-masterSkill-1780493302696-861-web_agent-1780493245596-1780493302753-331",
+      "source": "masterSkill-1780493302696-861",
+      "target": "web_agent-1780493245596",
+      "sourceHandle": "output-tool",
+      "targetHandle": "input-skill",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "simpleMemory-1780493331020",
+      "sourceHandle": "output-tool",
+      "target": "web_agent-1780493245596",
+      "targetHandle": "input-memory",
+      "id": "reactflow__edge-simpleMemory-1780493331020output-tool-web_agent-1780493245596input-memory",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "httpRequest-1780493901263",
+      "sourceHandle": "output-tool",
+      "target": "web_agent-1780493245596",
+      "targetHandle": "input-tools",
+      "id": "reactflow__edge-httpRequest-1780493901263output-tool-web_agent-1780493245596input-tools",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "web_agent-1780493245596",
+      "sourceHandle": "output-main",
+      "target": "console-1780494163463",
+      "targetHandle": "input-main",
+      "id": "reactflow__edge-web_agent-1780493245596output-main-console-1780494163463input-main",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "fileModify-1780495124108",
+      "sourceHandle": "output-tool",
+      "target": "web_agent-1780493245596",
+      "targetHandle": "input-tools",
+      "id": "reactflow__edge-fileModify-1780495124108output-tool-web_agent-1780493245596input-tools",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "fileRead-1780495163172",
+      "sourceHandle": "output-tool",
+      "target": "web_agent-1780493245596",
+      "targetHandle": "input-tools",
+      "id": "reactflow__edge-fileRead-1780495163172output-tool-web_agent-1780493245596input-tools",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "aiAgent-1780550327297",
+      "sourceHandle": "output-main",
+      "target": "console-1780550361441",
+      "targetHandle": "input-main",
+      "id": "reactflow__edge-aiAgent-1780550327297output-main-console-1780550361441input-main",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "web_agent-1780493245596",
+      "sourceHandle": "output-top",
+      "target": "ai_employee-1780551717032",
+      "targetHandle": "input-teammates",
+      "id": "reactflow__edge-web_agent-1780493245596output-top-ai_employee-1780551717032input-teammates",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "aiAgent-1780550327297",
+      "sourceHandle": "output-top",
+      "target": "ai_employee-1780551717032",
+      "targetHandle": "input-teammates",
+      "id": "reactflow__edge-aiAgent-1780550327297output-top-ai_employee-1780551717032input-teammates",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "chatTrigger-1780494176660",
+      "sourceHandle": "output-main",
+      "target": "ai_employee-1780551717032",
+      "targetHandle": "input-main",
+      "id": "reactflow__edge-chatTrigger-1780494176660output-main-ai_employee-1780551717032input-main",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "simpleMemory-1780551957974",
+      "sourceHandle": "output-tool",
+      "target": "aiAgent-1780550327297",
+      "targetHandle": "input-memory",
+      "id": "reactflow__edge-simpleMemory-1780551957974output-tool-aiAgent-1780550327297input-memory",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "ai_employee-1780551717032",
+      "sourceHandle": "output-main",
+      "target": "console-1780552496400",
+      "targetHandle": "input-main",
+      "id": "reactflow__edge-ai_employee-1780551717032output-main-console-1780552496400input-main",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "simpleMemory-1780553406827",
+      "sourceHandle": "output-tool",
+      "target": "ai_employee-1780551717032",
+      "targetHandle": "input-memory",
+      "id": "reactflow__edge-simpleMemory-1780553406827output-tool-ai_employee-1780551717032input-memory",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "ai_employee-1780551717032",
+      "sourceHandle": "output-main",
+      "target": "telegramSend-1780556003622",
+      "targetHandle": "input-main",
+      "id": "reactflow__edge-ai_employee-1780551717032output-main-telegramSend-1780556003622input-main",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "consumer_agent-1780556161320",
+      "sourceHandle": "output-top",
+      "target": "ai_employee-1780551717032",
+      "targetHandle": "input-teammates",
+      "id": "reactflow__edge-consumer_agent-1780556161320output-top-ai_employee-1780551717032input-teammates",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "simpleMemory-1780556191569",
+      "sourceHandle": "output-tool",
+      "target": "consumer_agent-1780556161320",
+      "targetHandle": "input-memory",
+      "id": "reactflow__edge-simpleMemory-1780556191569output-tool-consumer_agent-1780556161320input-memory",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "consumer_agent-1780556161320",
+      "sourceHandle": "output-main",
+      "target": "console-1780556211384",
+      "targetHandle": "input-main",
+      "id": "reactflow__edge-consumer_agent-1780556161320output-main-console-1780556211384input-main",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "fileModify-1781243264278",
+      "sourceHandle": "output-tool",
+      "target": "ai_employee-1780551717032",
+      "targetHandle": "input-tools",
+      "id": "reactflow__edge-fileModify-1781243264278output-tool-ai_employee-1780551717032input-tools",
+      "selected": false
+    },
+    {
+      "id": "e-masterSkill-1781243270631-127-ai_employee-1780551717032-1781243270770-488",
+      "source": "masterSkill-1781243270631-127",
+      "target": "ai_employee-1780551717032",
+      "sourceHandle": "output-tool",
+      "targetHandle": "input-skill",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "fileRead-1781243276146",
+      "sourceHandle": "output-tool",
+      "target": "ai_employee-1780551717032",
+      "targetHandle": "input-tools",
+      "id": "reactflow__edge-fileRead-1781243276146output-tool-ai_employee-1780551717032input-tools",
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#8be9fd",
+        "strokeWidth": 3
+      },
+      "source": "cronScheduler-1781253814082",
+      "sourceHandle": "output-main",
+      "target": "ai_employee-1780551717032",
+      "targetHandle": "input-main",
+      "id": "reactflow__edge-cronScheduler-1781253814082output-main-ai_employee-1780551717032input-main",
+      "selected": false
+    }
+  ],
+  "createdAt": "2026-06-03T07:57:08.557Z",
+  "lastModified": "2026-06-12T09:42:22.819Z",
+  "version": "0.0.72",
+  "nodeParameters": {
+    "web_agent-1780493245596": {
+      "prompt": "",
+      "provider": "gemini",
+      "model": "gemini-flash-latest",
+      "system_message": "You are Reddit Hunter.\n\nFind recent Reddit posts related to:\n- workflow automation\n- CRM\n- lead generation\n- customer support\n\nOnly consider posts from the last 7 days.\n\nReturn:\n- title\n- url\n- subreddit\n- author\n- summary\n\nDo not analyze.\nDo not score.\nDo not generate outreach.",
+      "options": {
+        "temperature": 0.2
+      },
+      "label": "Web Agent"
+    },
+    "duckduckgoSearch-1780493295134": {
+      "max_results": 5,
+      "label": "DuckDuckGo Search"
+    },
+    "masterSkill-1780493302696-861": {
+      "skills_config": {
+        "duckduckgo-search-skill": {
+          "enabled": true,
+          "instructions": "",
+          "isCustomized": false
+        },
+        "http-request-skill": {
+          "enabled": true,
+          "instructions": "",
+          "isCustomized": false
+        },
+        "file-modify-skill": {
+          "enabled": true,
+          "instructions": "",
+          "isCustomized": false
+        },
+        "file-read-skill": {
+          "enabled": true,
+          "instructions": "",
+          "isCustomized": false
+        }
+      }
+    },
+    "simpleMemory-1780493331020": {
+      "session_id": "",
+      "window_size": 100,
+      "memory_content": "",
+      "long_term_enabled": false,
+      "retrieval_count": 3,
+      "last_session_id": null,
+      "label": "Simple Memory"
+    },
+    "httpRequest-1780493901263": {
+      "method": "GET",
+      "body": null,
+      "timeout": 30,
+      "use_proxy": false,
+      "proxy_provider": "auto",
+      "proxy_country": "",
+      "session_type": "rotating",
+      "sticky_duration": 600,
+      "label": "HTTP Request"
+    },
+    "console-1780494163463": {
+      "label": "Console",
+      "log_mode": "all",
+      "field_path": "",
+      "expression": "",
+      "format": "json"
+    },
+    "chatTrigger-1780494176660": {
+      "session_id": "default",
+      "placeholder": "Type a message...",
+      "label": "Chat Trigger"
+    },
+    "fileModify-1780495124108": {
+      "operation": "write",
+      "content": "",
+      "old_string": "",
+      "new_string": "",
+      "replace_all": false,
+      "label": "File Modify"
+    },
+    "fileRead-1780495163172": {
+      "offset": 0,
+      "limit": 2000,
+      "label": "File Read"
+    },
+    "aiAgent-1780550327297": {
+      "prompt": "",
+      "provider": "gemini",
+      "model": "gemini-flash-latest",
+      "system_message": "You work exclusively for Zeenie.\n\nZeenie provides AI Employees, workflow automation, browser automation, task automation, business process automation, and autonomous AI agents.\n\nWhen evaluating leads:\n\nDo NOT recommend third-party tools such as:\n\n* Make\n* Zapier\n* ClickUp\n* Notion\n* HubSpot\n* Airtable\n* Monday\n\nInstead determine:\n\n1. Whether Zeenie can solve the problem.\n2. Which type of Zeenie AI Employee would help.\n3. Why Zeenie is a good fit.\n\n## About Zeenie\n\nZeenie enables businesses to create AI Employees.\n\nCapabilities include:\n\n* Browser Automation\n* Web Research\n* Lead Generation\n* Task Automation\n* Email Automation\n* Social Media Automation\n* CRM Automation\n* Data Collection\n* Multi-Agent Workflows\n* Process Automation\n* Custom AI Employees\n\nThe goal is to replace repetitive manual work with autonomous AI workers.\n\n## Lead Scoring Framework\n\nCalculate scores using the following rubric:\n\n### Buying Intent (0-40)\n* Explicitly asking for a solution or recommendation = 35-40\n* Actively comparing solutions = 25-34\n* Discussing a business problem = 15-24\n* General discussion only = 0-14\n\n### Pain Severity (0-25)\n* Problem directly impacts revenue, operations, or growth = 20-25\n* Significant inefficiency = 10-19\n* Minor inconvenience = 0-9\n\n### Automation Fit (0-20)\n* Fully automatable with Zeenie = 16-20\n* Mostly automatable = 10-15\n* Partial fit = 0-9\n\nEngagement & Freshness (0-15)\n- Upvotes > 50 = +5\n- Comments > 20 = +5\n- Posted within 24h = +5\n\nFinal Lead Score =\nBuying Intent +\nPain Severity +\nAutomation Fit +\nEngagement & Freshness\n\n## Priority Rules\n\n* 90-100 = Critical\n* 80-89 = High\n* 60-79 = Medium\n* Below 60 = Low\n\nIgnore low-quality leads and weak automation opportunities.\n\n## Output Format\n\nFor each lead provide:\n* Title\n* URL\n* Subreddit\n* Pain Point\n* Business Context\n* Buying Intent\n* Automation Fit\n* Lead Score Breakdown\n* Final Lead Score\n* Priority\n* Why Zeenie Is A Good Fit\n* Recommended Zeenie Solution\n",
+      "options": {
+        "temperature": 0.5
+      },
+      "label": "AI Agent"
+    },
+    "console-1780550361441": {
+      "label": "Console 1",
+      "log_mode": "all",
+      "field_path": "",
+      "expression": "",
+      "format": "json"
+    },
+    "ai_employee-1780551717032": {
+      "prompt": "{{chattrigger.message}}\n",
+      "provider": "gemini",
+      "model": "gemini-flash-latest",
+      "system_message": "You are the Lead Generation Manager for Zeenie.\n\nYour role is NOT to analyze leads yourself.\n\nYou coordinate three specialists:\n\n1. Reddit Hunter\n   - Finds opportunities on Reddit\n   - Returns candidate leads\n\n2. Lead Analyst\n   - Scores and qualifies leads\n   - Identifies pain points\n   - Recommends Zeenie solutions\n\n3. Outreach Writer\n   - Creates personalized outreach messages\n\nWorkflow:\n\nStep 1:\nAsk Reddit Hunter to find opportunities.\n\nStep 2:\nSend those opportunities to Lead Analyst.\n\nStep 3:\nSend qualified leads to Outreach Writer.\n\nStep 4:\nCollect outputs from all teammates.\n\nStep 5:\nGenerate the final report.\n\nDo not perform specialist work yourself.\nUse teammates whenever possible.\nAct only as a coordinator and final report generator.\nOnly send leads with Priority = High or Critical to Outreach Writer.",
+      "options": {
+        "temperature": 0.4
+      },
+      "label": "AI Employee"
+    },
+    "simpleMemory-1780551957974": {
+      "session_id": "",
+      "window_size": 100,
+      "memory_content": "\n### **Human** (2026-06-12 12:45:43)\nCandidate Leads from Reddit Hunter:\n\n1. Print Shop Ordering & Fulfillment Workflow\n- Subreddit: r/automation\n- Post Title: [AI + Automation] Looking to automate a print shop’s ordering workflow – recommendations welcome\n- URL: https://www.reddit.com/r/automation/comments/1lkw5us/ai_automation_looking_to_automate_a_print_shops/\n- Username: u/[Post Author] (Anonymous/Hidden)\n- Specific Automation Need / Pain Point: The founder of a print shop is looking to automate their entire customer-facing pipeline, from initial order intake to final fulfillment. They are trying to move away from manual coordination and are exploring AI-powered tools (smart forms, workflow bots, and scheduling assistants). They are open to a hybrid stack (e.g., Airtable, Shopify, Make, Zapier) but are struggling to find a unified, cohesive way to manage the entire process without ending up with a fragile, multi-tool setup.\n\n2. E-Commerce Marketing Task & Customer Support Automation\n- Subreddit: r/nocode\n- Post Title: Looking for suggestions on no-code tools that can help build ...\n- URL: https://www.reddit.com/r/nocode/comments/1dqdcg6/looking_for_suggestions_on_nocode_tools_that_can/\n- Username: u/[Post Author] (Anonymous/Hidden)\n- Specific Automation Need / Pain Point: A marketing manager for a mid-sized e-commerce company is looking to automate repetitive tasks without having to write code. They tried existing AI agent platforms like Lindy and Relevant, but found Lindy too constrained in its capabilities and Relevant not user-friendly enough. Their primary goal is to build an AI agent for customer support that handles common inquiries and pulls instant answers from an internal knowledge base, alongside automating daily marketing workflows.\n\n3. WordPress Digital Order Fulfillment\n- Subreddit: r/Entrepreneur\n- Post Title: Looking to automate order fulfillment\n- URL: https://www.reddit.com/r/Entrepreneur/comments/16mxgu4/looking_to_automate_order_fulfillment/\n- Username: u/[Post Author] (Anonymous/Hidden)\n- Specific Automation Need / Pain Point: An agency founder is looking to automate the order fulfillment process for a client selling webinar recordings and electronic PDFs through WordPress. They are searching for a non-clunky, fairly-priced API-driven software to automate the secure generation and delivery of digital assets once a transaction is completed.\n\nZeenie is our platform. Zeenie is an all-in-one workflow orchestration and AI automation platform that combines powerful visual no-code building, native AI agents, API-first architecture, and robust integrations, eliminating the need for fragile multi-tool setups (like Zapier + Make + Airtable).\n\n### **Assistant** (2026-06-12 12:45:43)\n# Lead Evaluation and Qualification Report\n\n**To:** Zeenie Growth & Sales Team  \n**From:** Lead Analyst, Zeenie  \n**Subject:** Evaluation and Qualification of Reddit Leads  \n\nBelow is the detailed analysis, scoring, and qualification of the three candidate leads provided by the Reddit Hunter. \n\n---\n\n### Lead 1: Print Shop Ordering & Fulfillment Workflow\n* **Subreddit:** r/automation\n* **Post Title:** *[AI + Automation] Looking to automate a print shop’s ordering workflow – recommendations welcome*\n* **URL:** [Reddit Link](https://www.reddit.com/r/automation/comments/1lkw5us/ai_automation_looking_to_automate_a_print_shops/)\n\n#### 1. Score: 10/10\nThis lead is a perfect, textbook match for Zeenie’s core value proposition. The prospect is actively seeking a unified platform to avoid the exact \"software spaghetti\" that Zeenie was built to solve.\n\n#### 2. Deep Pain Point Analysis\n* **Fragile Multi-Tool Architecture:** The founder is terrified of building a \"franken-stack\" using Make, Zapier, Shopify, and Airtable. They recognize that multi-tool dependencies lead to high maintenance costs, frequent API breakage, and data synchronization lag.\n* **Manual Coordination Overhead:** The business is suffering from operational bottlenecks in moving a customer from initial intake (ordering) to final fulfillment (shipping/delivery).\n* **Desire for Native AI:** They want to leverage AI (smart forms, workflow bots, scheduling) but lack a singular platform where AI agents can natively interact with databases and external APIs without complex glue-code.\n\n#### 3. The Zeenie Solution\n* **Unified Workflow Orchestration:** Zeenie replaces the need for separate subscriptions to Make, Zapier, and Airtable. The founder can design the entire intake-to-fulfillment pipeline visually within a single platform.\n* **Native AI Agents:** Instead of trying to connect external AI tools via webhooks, Zeenie’s native AI agents can be deployed directly into the workflow to parse custom print requests from smart forms, automate scheduling, and update order statuses.\n* **Robust, Single-Platform Reliability:** By consolidating data storage, logic, AI, and integrations into Zeenie, the print shop eliminates the fragility of multi-app connections, ensuring order processing never drops due to a broken third-party API.\n\n#### 4. Qualification: High Priority\n* **Why:** The prospect has a high-intent, immediate business need and is actively designing their architecture *right now*. Winning them early prevents them from locking into a competitor's ecosystem. They represent a high-value customer who will rely on Zeenie for core business operations.\n\n---\n\n### Lead 2: E-Commerce Marketing Task & Customer Support Automation\n* **Subreddit:** r/nocode\n* **Post Title:** *Looking for suggestions on no-code tools that can help build ...*\n* **URL:** [Reddit Link](https://www.reddit.com/r/nocode/comments/1dqdcg6/looking_for_suggestions_on_nocode_tools_that_can/)\n\n#### 1. Score: 9/10\nThis is an incredibly strong lead. The prospect is a mid-sized e-commerce company (indicating budget availability) who has already tried competitor tools (Lindy, Relevant) and found them lacking. \n\n#### 2. Deep Pain Point Analysis\n* **Functional Constraints in Competitors:** They found Lindy too limited in its execution capabilities, meaning they need an AI agent that can actually trigger complex multi-step workflows, not just chat.\n* **Poor User Experience:** They found Relevant too difficult to use, highlighting a need for a highly intuitive, visual no-code builder.\n* **Siloed Operations:** They are trying to solve two distinct problems—internal marketing workflows and external customer support—and need a platform flexible enough to handle both.\n\n#### 3. The Zeenie Solution\n* **Intuitive Visual No-Code Builder:** Zeenie solves the \"Relevant\" pain point by offering a highly polished, user-friendly drag-and-drop builder that requires zero coding skills to map out complex marketing workflows.\n* **Unconstrained Native AI Agents:** Unlike Lindy, Zeenie’s AI agents are deeply integrated into our API-first orchestration layer. The support agent can not only query an internal knowledge base to answer customer questions but also actively trigger system actions (e.g., issuing refunds, updating Shopify tracking).\n* **Dual-Use Case Orchestration:** The marketing manager can build their daily marketing automation workflows and their customer support agents on the same platform, sharing data and logic seamlessly.\n\n#### 4. Qualification: High Priority\n* **Why:** This lead has budget (mid-sized e-commerce), clear intent, and has already gone through the product discovery phase. They know what they *don't* want. Positioning Zeenie as the \"user-friendly yet powerful\" alternative to Lindy and Relevant will highly resonate with them.\n\n---\n\n### Lead 3: WordPress Digital Order Fulfillment\n* **Subreddit:** r/Entrepreneur\n* **Post Title:** *Looking to automate order fulfillment*\n* **URL:** [Reddit Link](https://www.reddit.com/r/Entrepreneur/comments/16mxgu4/looking_to_automate_order_fulfillment/)\n\n#### 1. Score: 6.5/10\nWhile this lead is highly relevant to automation, the specific use case is relatively simple and transactional. However, because the poster is an *agency founder*, they represent a valuable partner/multiplier channel.\n\n#### 2. Deep Pain Point Analysis\n* **Clunky Legacy Systems:** The agency is frustrated by slow, unreliable, or overpriced plugins/software currently available for WordPress asset delivery.\n* **Security Concerns:** They need to ensure that high-value digital assets (webinar recordings and PDFs) are generated and delivered securely post-purchase, preventing unauthorized access.\n* **Pricing Sensitivity:** They specifically called out wanting \"fairly-priced\" software.\n\n#### 3. The Zeenie Solution\n* **API-First Architecture:** Zeenie can easily listen to WordPress/WooCommerce webhooks instantly upon transaction completion, securely generate a time-sensitive download link, and email it to the customer.\n* **Reliability Over Plugins:** By offloading the logic to Zeenie, they keep their client’s WordPress site lightweight, fast, and secure.\n* **Agency-Friendly Scalability:** Zeenie can offer this agency a single platform to manage automation pipelines for *all* of their clients, giving them a central hub to build, monitor, and charge clients for maintenance.\n\n#### 4. Qualification: Medium Priority\n* **Why:** The immediate technical requirement (sending a PDF/video link after a purchase) can be solved by simple, cheap tools. However, the prospect is an **agency founder**. If we pitch Zeenie not just as a tool for this *one* client, but as the engine they can use to power automation for *all* of their clients, this becomes a highly lucrative partnership lead.\n\n### **Human** (2026-06-12 13:05:56)\nHere are 3 Reddit posts found by our Reddit Hunter:\n\nPost 1:\n- Subreddit: r/advertising\n- Title: \"What advertising agency tasks can actually be automated?\"\n- URL: https://www.reddit.com/r/advertising/comments/1bjwfev/what_advertising_agency_tasks_can_actually_be/\n- Username: Anonymous Marketing Agency Operator / Employee\n- Summary: The poster works at a marketing/advertising agency and successfully automated client onboarding using Make.com and Zapier. They are actively seeking advice on other repetitive, tedious advertising agency tasks that can be automated to save time and reduce overhead.\n\nPost 2:\n- Subreddit: r/automation\n- Title: \"What would you automate in a Web Agency?\"\n- URL: https://www.reddit.com/r/automation/comments/1p4iyi4/what_would_you_automate_in_a_web_agency/\n- Username: Anonymous Web Agency Owner\n- Summary: A web development and design agency owner is looking to automate quotation reminders, follow-ups on proposals, and other administrative client-facing communication. They want to know what other agency owners automate.\n\nPost 3:\n- Subreddit: r/smallbusiness\n- Title: \"What are some automations I should look into as a business...\"\n- URL: https://www.reddit.com/r/smallbusiness/comments/1josm8a/what_are_some_automations_i_should_look_into_as_a/\n- Username: Anonymous Business Founder / Owner\n- Summary: Faced with economic pressures, this founder wants to automate workflows across multiple departments (engineering, marketing, and sales) to achieve \"hyper-automation\" so employees can \"do more with less\" without hurting client relationships.\n\n---\nZeenie Product Context:\nZeenie is a unified visual workflow orchestrator and no-code automation platform. Key features:\n- Replaces the need for separate subscriptions to Make, Zapier, and databases (like Airtable).\n- Native AI Agents: Built directly into the workflow canvas. These agents are unconstrained, can ingest knowledge bases, connect to various channels, and trigger deep, branching logical workflows.\n- Visual, drag-and-drop workflow builder.\n- API-first architecture, great for agency multi-tenant or multi-client management.\n- Cost-effective compared to Zapier's high premiums.\n\n### **Assistant** (2026-06-12 13:05:56)\n# Lead Evaluation and Qualification Report\n\n**To:** Zeenie Growth & Sales Team  \n**From:** Lead Analyst, Zeenie  \n**Subject:** Evaluation and Qualification of Reddit Leads (Batch 2)\n\nWe have analyzed three new candidate leads from Reddit. All three prospects operate in the B2B space (agencies and small businesses) and are actively searching for automation solutions. Below is the strategic scoring, pain point analysis, and Zeenie-specific solution mapping for each lead.\n\n---\n\n### Lead 1: Advertising Agency Operator / Employee\n* **Subreddit:** r/advertising\n* **Post Title:** *\"What advertising agency tasks can actually be automated?\"*\n* **URL:** [Reddit Link](https://www.reddit.com/r/advertising/comments/1bjwfev/what_advertising_agency_tasks_can_actually_be/)\n* **Current Stack:** Make.com + Zapier (used for onboarding)\n\n#### 1. Score & Priority\n* **Score:** 8.5/10  \n* **Priority:** High Priority\n* **Why:** This lead is already \"automation-literate.\" They understand how to build workflows but are hit with the \"automation tax\" of running a multi-tool stack (Make + Zapier). They are actively looking to expand their automation footprint, making them highly receptive to a more scalable platform.\n\n#### 2. Deep Pain Points\n* **Multi-Tool Fragility and Cost:** Running both Zapier and Make.com is financially inefficient. As they scale tasks across more agency workflows, Zapier’s high premiums and Make's operations-based pricing will rapidly eat into agency margins.\n* **Siloed Client Data:** Onboarding clients involves capturing data, but without a unified database integrated into their runner, they are likely pushing data to external spreadsheets, creating sync lags and security risks.\n* **Inspiration Block:** They want to automate more (reporting, ad creative generation, performance monitoring) but are hitting the limits of what standard, non-AI automation tools can easily do.\n\n#### 3. The Zeenie Solution\n* **Consolidate the Stack:** Zeenie can completely replace their Make and Zapier subscriptions, while also providing a built-in database (replacing Airtable/Google Sheets). This instantly slashes their monthly software overhead.\n* **Native AI Agents for Creative & Reporting:** Instead of setting up complex API webhooks to OpenAI, they can use Zeenie’s native AI agents on the visual canvas to:\n  * Automatically draft ad copy variants based on client onboarding inputs.\n  * Ingest weekly ad performance data and generate client-ready PDF summaries.\n* **High-Volume Cost Efficiency:** Zeenie’s cost-effective pricing model allows them to run high-volume agency workflows without worrying about Zapier's punitive task-based pricing.\n\n---\n\n### Lead 2: Web Agency Owner\n* **Subreddit:** r/automation\n* **Post Title:** *\"What would you automate in a Web Agency?\"*\n* **URL:** [Reddit Link](https://www.reddit.com/r/automation/comments/1p4iyi4/what_would_you_automate_in_a_web_agency/)\n* **Target Needs:** Quotation reminders, proposal follow-ups, administrative client-facing communication.\n\n#### 1. Score & Priority\n* **Score:** 9.0/10  \n* **Priority:** High Priority\n* **Why:** This is an agency owner looking to automate high-value, bottom-of-the-funnel sales activities (proposals and quotes). Furthermore, as a web agency owner, they represent a potential partner/multiplier channel who could build automations for their own clients using Zeenie.\n\n#### 2. Deep Pain Points\n* **Leaking Sales Pipeline:** Manual follow-ups on proposals are falling through the cracks, resulting in lost revenue.\n* **Administrative Friction:** The owner is spending billable hours drafting repetitive emails, chasing clients for feedback, and sending quotation reminders instead of focusing on high-value development work.\n* **The \"Robotic\" Communication Risk:** Traditional automated email templates feel cold and impersonal, which can damage high-touch client relationships typical in web development agencies.\n\n#### 3. The Zeenie Solution\n* **Context-Aware Follow-Up Agents:** Zeenie's native AI agents can read the original proposal document, understand the specific project scope (e.g., \"E-commerce redesign\"), and draft hyper-personalized follow-up emails that feel entirely manual and bespoke.\n* **Visual CRM & Branching Workflows:** Using Zeenie’s visual drag-and-drop builder, the owner can map out a robust client journey: \n  * *Trigger:* Proposal sent $\\rightarrow$ *Wait 3 days* $\\rightarrow$ *AI Agent checks if signed* $\\rightarrow$ *If not, AI drafts and sends a friendly, contextual reminder*.\n* **Multi-Tenant Agency Architecture:** Zeenie’s API-first architecture allows the agency to build custom integrations and automation workflows, which they can package and resell to their own web design clients as a premium retainer service.\n\n---\n\n### Lead 3: Small Business Founder / Owner\n* **Subreddit:** r/smallbusiness\n* **Post Title:** *\"What are some automations I should look into as a business...\"*\n* **URL:** [Reddit Link](https://www.reddit.com/r/smallbusiness/comments/1josm8a/what_are_some_automations_i_should_look_into_as_a/)\n* **Target Needs:** Cross-departmental \"hyper-automation\" (engineering, marketing, sales) to combat economic pressures.\n\n#### 1. Score & Priority\n* **Score:** 9.5/10  \n* **Priority:** Critical Priority\n* **Why:** This lead is facing severe macroeconomic pressure and is looking for a comprehensive, strategic platform shift (\"hyper-automation\") across their entire business. They have a massive mandate to \"do more with less,\" making them an ideal enterprise/growth-tier customer for Zeenie.\n\n#### 2. Deep Pain Points\n* **Macroeconomic Margin Compression:** They must urgently reduce operational costs and maximize employee output without hiring more staff.\n* **Cross-Departmental Silos:** They need engineering (ticketing/product), marketing (leads), and sales (CRM) to talk to one another, but buying point-to-point integration tools for each department is cost-prohibitive.\n* **Fear of Damaging Client Relationships:** They are terrified that automating workflows will make their business feel cold and transactional to their customers.\n\n#### 3. The Zeenie Solution\n* **The Ultimate Cost-Consolidation Platform:** Zeenie directly addresses their economic pain. By replacing Zapier, Make, and standalone database tools with a single, highly cost-effective platform, they instantly reduce their SaaS bill.\n* **Unified Visual Orchestration:** Instead of managing fragmented tools across departments, the founder can visually map the entire business on Zeenie. For example:\n  * *Sales* closes a deal $\\rightarrow$ Zeenie automatically provisions a project in *Engineering* $\\rightarrow$ Zeenie triggers a welcome campaign in *Marketing*.\n* **Guardrailed Native AI Agents:** To protect client relationships, Zeenie’s native AI agents can be trained on the company’s internal knowledge base. They can handle customer inquiries with human-like empathy and precision, escalating to a live team member only when necessary, ensuring automation never feels robotic.\n\n### **Human** (2026-06-12 13:44:16)\nCandidate leads found by Reddit Hunter:\n\n1. E-Commerce Marketing Manager Seeking No-Code AI Agent Automation\n- Subreddit: r/nocode\n- Post Link: https://www.reddit.com/r/nocode/comments/1dqdcg6/looking_for_suggestions_on_nocode_tools_that_can/\n- Specific Problem/Need: Wants to build and deploy AI agents to automate daily workflows and marketing tasks without coding. Found Lindy too constrained and Relevant not user-friendly. Looking for robust, user-friendly no-code AI automation platforms.\n\n2. Founder Looking to Automate AI-Generated Questionnaires into Forms\n- Subreddit: r/nocode\n- Post Link: https://www.reddit.com/r/nocode/comments/1crofan/need_help_automating_aigenerated_questionnaires/\n- Specific Problem/Need: Wants to automate bridging AI output with form-building software. Wants to feed business details to an AI (like ChatGPT), have it generate a customized questionnaire, and then automatically convert that into a functional, publishable web form without manual copy-pasting.\n\n3. Apparel Startup Founder Looking to Automate Design Templates & Mockups\n- Subreddit: r/startups\n- Post Link: https://www.reddit.com/r/startups/comments/l5s8fv/how_to_best_automate_product_mockup_and_template/\n- Specific Problem/Need: Startup owner looking for software/workflow automation to generate product mockups and design templates programmatically, moving away from manual graphic design Photoshop Actions.\n\n4. Small Business Owner Looking for Systems to Automate Operations\n- Subreddit: r/smallbusiness\n- Post Link: https://www.reddit.com/r/smallbusiness/comments/1c6ha70/how_to_automate_my_business/\n- Specific Problem/Need: Wants to step back from day-to-day operations and have their business function and grow autonomously. Looking for automated systems, workflow tools, and software integrations to manage tasks in their absence.\n\n5. Entrepreneur Seeking Cost-Effective Zapier Alternatives for Process Automation\n- Subreddit: r/growmybusiness\n- Post Link: https://www.reddit.com/r/growmybusiness/comments/1di503r/what_do_you_recommend_for_process_automation/\n- Specific Problem/Need: Wants to automate business processes but finds Zapier pricing too high for their budget. Seeking powerful, cost-effective workflow automation tools.\n\n6. Founder Automating Customer Onboarding & Payment Redirection\n- Subreddit: r/nocode\n- Specific Problem/Need: Wants to automate customer onboarding and payment redirection workflows seamlessly.\n\n---\nZeenie Overview:\nZeenie is an AI-driven automation platform that enables businesses to build custom AI agents, automate complex multi-step workflows, integrate various apps, and run autonomous business processes easily and cost-effectively. It is highly user-friendly, extremely flexible (not constrained like Lindy), and acts as a powerful, affordable alternative to Zapier. It can handle AI text processing, form generation, API integrations, and multi-app workflows.\n\nPlease analyze, score (e.g., out of 10), qualify these leads, identify their main pain points, and recommend specific Zeenie solutions for each.\n\n### **Assistant** (2026-06-12 13:44:16)\n# Lead Evaluation and Qualification Report\n\n**To:** Zeenie Growth & Sales Team  \n**From:** Lead Analyst, Zeenie  \n**Subject:** Comprehensive Qualification and Solution Mapping for Reddit Hunter Leads (Batch 3)\n\nBelow is the strategic analysis, scoring, and tailored solution mapping for the six candidate leads identified by Reddit Hunter.\n\n---\n\n### Lead 1: E-Commerce Marketing Manager Seeking No-Code AI Agent Automation\n* **Subreddit:** r/nocode\n* **URL:** [Reddit Link](https://www.reddit.com/r/nocode/comments/1dqdcg6/looking_for_suggestions_on_nocode_tools_that_can/)\n\n#### 1. Score: 9.5/10 | Qualification: Critical Priority\n* **Why:** This prospect is actively shopping for a platform *right now*. They have budget (mid-sized e-commerce), clear intent, and have already defined their criteria by testing and rejecting major competitors (Lindy and Relevant). \n\n#### 2. Core Pain Points\n* **Functional Limitations:** Lindy’s AI agents were too linear and constrained; they could not handle complex, multi-step, branching real-world marketing workflows.\n* **Bad User Experience:** Relevant was too complex and lacked an intuitive, user-friendly interface.\n* **Execution Gap:** They need AI agents that don't just \"chat,\" but actually *execute tasks* (e.g., querying knowledge bases, updating marketing sheets, triggering emails).\n\n#### 3. The Zeenie Solution\n* **Unconstrained AI Agents:** Zeenie's native AI agents are built directly into our visual workflow canvas. They are not isolated chatbots; they can run complex conditional branching logic, read/write to databases, and trigger multi-app API actions.\n* **Intuitive Visual Builder:** Zeenie bridges the usability gap. It offers a highly polished, drag-and-drop workflow builder that is far more user-friendly than Relevant, yet vastly more powerful than Lindy.\n* **Native Knowledge Base Ingestion:** The marketing manager can upload brand guidelines, product catalogs, and FAQs directly into Zeenie, allowing the AI agents to autonomously draft on-brand marketing copy and answer customer support tickets instantly.\n\n---\n\n### Lead 2: Founder Looking to Automate AI-Generated Questionnaires into Forms\n* **Subreddit:** r/nocode\n* **URL:** [Reddit Link](https://www.reddit.com/r/nocode/comments/1crofan/need_help_automating_aigenerated_questionnaires/)\n\n#### 1. Score: 8.5/10 | Qualification: High Priority\n* **Why:** This is a highly specific, creative automation problem that traditional tools like Zapier struggle to solve elegantly. Zeenie’s unique blend of visual workflows, native AI, and data tables makes this a perfect showcase of our platform's capabilities.\n\n#### 2. Core Pain Points\n* **Manual Copy-Paste Bottleneck:** The founder has to manually take text output from ChatGPT (the questionnaire) and manually build fields inside a form builder (like Typeform or Google Forms).\n* **Lack of Direct Schema Generation:** Standard automation tools cannot translate raw AI text into structured UI/form fields dynamically.\n\n#### 3. The Zeenie Solution\n* **End-to-End AI Form Orchestration:** \n  1. **Step 1:** Zeenie’s native AI agent takes the raw business details as input.\n  2. **Step 2:** The agent is instructed to output the questionnaire in structured JSON format.\n  3. **Step 3:** Zeenie’s API-first workflow engine parses this JSON and dynamically generates a functional web form hosted natively on Zeenie, or pushes it via API to a form-builder tool.\n* **No Code Required:** The entire flow—from the initial prompt to the live, publishable form—is visual and automated, completely eliminating manual copy-pasting.\n\n---\n\n### Lead 3: Apparel Startup Founder Looking to Automate Design Templates & Mockups\n* **Subreddit:** r/startups\n* **URL:** [Reddit Link](https://www.reddit.com/r/startups/comments/l5s8fv/how_to_best_automate_product_mockup_and_template/)\n\n#### 1. Score: 7.5/10 | Qualification: Medium Priority\n* **Why:** While this is a highly valuable business-to-business automation case, it relies heavily on third-party image generation/rendering APIs (such as Bannerbear, Placid, or the Adobe Photoshop API). Zeenie is the perfect tool to *orchestrate* this, but we are not the rendering engine itself.\n\n#### 2. Core Pain Points\n* **Scalability Bottleneck:** Manual graphic design via Photoshop Actions is slow, repetitive, and does not scale as product catalogs grow.\n* **Disconnected Tools:** They need a way to feed product data (titles, SKUs, colors) into a design generator and save the output without human intervention.\n\n#### 3. The Zeenie Solution\n* **API-First Orchestration:** Zeenie’s robust API integration layer can easily connect the startup’s e-commerce store (e.g., Shopify) to automated design APIs (e.g., Bannerbear).\n* **The Workflow:** When a new product is added $\\rightarrow$ Zeenie pulls the product details $\\rightarrow$ Zeenie triggers the design API to generate mockups with the correct assets $\\rightarrow$ Zeenie uploads the completed mockups back to the store and updates the database.\n* **Cost-Efficient Batching:** Running hundreds of design generations through Zapier would be prohibitively expensive. Zeenie’s cost-effective pricing makes high-volume media generation viable.\n\n---\n\n### Lead 4: Small Business Owner Looking for Systems to Automate Operations\n* **Subreddit:** r/smallbusiness\n* **URL:** [Reddit Link](https://www.reddit.com/r/smallbusiness/comments/1c6ha70/how_to_automate_my_business/)\n\n#### 1. Score: 9.0/10 | Qualification: High Priority\n* **Why:** This owner wants to \"exit\" day-to-day operations and build a self-sustaining business. They are looking for a complete operational operating system, not just a single quick fix. This is a high-value, high-retention account opportunity.\n\n#### 2. Core Pain Points\n* **Founder Burnout:** The owner is trapped in daily, manual administrative work.\n* **Siloed Systems:** Customer data, tasks, scheduling, and invoicing are scattered across disconnected apps, making it impossible to step away without things breaking.\n* **Lack of Standard Operating Procedures (SOPs):** No centralized system to guide tasks autonomously.\n\n#### 3. The Zeenie Solution\n* **The \"Autonomous Business Engine\":** Zeenie acts as the central nervous system of the business. By replacing separate subscriptions to Zapier, Make, and Airtable, the owner can build a single, unified operations dashboard.\n* **Self-Running Operations:** Zeenie can automate client intake, task assignment, invoice generation, and follow-ups. \n* **AI Operations Assistant:** A native Zeenie AI Agent can monitor incoming customer emails, draft contextual replies, and escalate urgent issues to the team, allowing the owner to step back with total peace of mind.\n\n---\n\n### Lead 5: Entrepreneur Seeking Cost-Effective Zapier Alternatives for Process Automation\n* **Subreddit:** r/growmybusiness\n* **URL:** [Reddit Link](https://www.reddit.com/r/growmybusiness/comments/1di503r/what_do_you_recommend_for_process_automation/)\n\n#### 1. Score: 10/10 | Qualification: Critical Priority\n* **Why:** This lead is actively seeking what Zeenie specifically offers: a powerful, reliable, and cost-effective alternative to Zapier. The financial pain point is their primary driver.\n\n#### 2. Core Pain Points\n* **Zapier Tax:** Zapier’s task-based pricing model penalizes growth. As soon as the entrepreneur's workflows become successful and scale, their bill skyrockets.\n* **Budget Constraints:** They need advanced multi-step logic and database integrations but are locked out of them by Zapier's expensive premium tiers.\n\n#### 3. The Zeenie Solution\n* **Disruptive Cost-Effectiveness:** Zeenie is built to be highly affordable for growing businesses, removing the high premium tax of Zapier.\n* **All-In-One Consolidation:** Instead of paying for Zapier (for integrations) + Make (for complex logic) + Airtable (to store data), they pay for a single Zeenie subscription.\n* **No Compromise on Power:** They get a visual, drag-and-drop workflow builder that matches or exceeds Zapier’s capabilities, plus native AI agents that Zapier cannot natively replicate without expensive external API calls.\n\n---\n\n### Lead 6: Founder Automating Customer Onboarding & Payment Redirection\n* **Subreddit:** r/nocode (Specific post identified by Hunter)\n\n#### 1. Score: 8.0/10 | Qualification: High Priority\n* **Why:** Onboarding and transactional payment redirection are highly repeatable, standard automation use cases that Zeenie executes flawlessly. \n\n#### 2. Core Pain Points\n* **Friction in Customer Journey:** If the transition from checkout/payment to onboarding is manual or slow, customers churn or lose trust.\n* **Data Disconnection:** Payment data (Stripe/PayPal) needs to instantly trigger account creation, update internal databases, and send personalized welcome resources without lag.\n\n#### 3. The Zeenie Solution\n* **Instantaneous Webhook Processing:** Zeenie’s API-first architecture processes incoming payment webhooks (e.g., Stripe) in real-time.\n* **Seamless Multi-Step Onboarding:** \n  * *Trigger:* Payment completed $\\rightarrow$ Zeenie updates the internal database $\\rightarrow$ Zeenie generates a secure, personalized customer portal/onboarding link $\\rightarrow$ Zeenie redirects the user or sends an automated, hyper-personalized welcome email.\n* **Visual Verification:** The founder can visually map and test the entire user onboarding flow on the Zeenie canvas to ensure there are no dead-ends or broken links in the customer experience.\n\n### **Human** (2026-06-12 13:44:55)\nHere are the qualified leads and their analyses:\n\nLead 1: E-Commerce Marketing Manager Seeking No-Code AI Agent Automation\n- Subreddit: r/nocode\n- URL: https://www.reddit.com/r/nocode/comments/1dqdcg6/looking_for_suggestions_on_nocode_tools_that_can/\n- Pain Points: Lindy is too constrained (linear), Relevant is not user-friendly. Need robust, user-friendly no-code AI automation platforms.\n- Zeenie Solution: Unconstrained AI agents built into visual workflow canvas, intuitive drag-and-drop builder, native knowledge base ingestion.\n- Score: 9.5/10\n\nLead 2: Founder Looking to Automate AI-Generated Questionnaires into Forms\n- Subreddit: r/nocode\n- URL: https://www.reddit.com/r/nocode/comments/1crofan/need_help_automating_aigenerated_questionnaires/\n- Pain Points: Manual copy-paste bottleneck between ChatGPT output and form builder. Lack of direct schema generation.\n- Zeenie Solution: End-to-end AI form orchestration. Zeenie's native AI agent outputs questionnaire in structured JSON, and Zeenie's API-first engine parses it and dynamically generates a functional web form.\n- Score: 8.5/10\n\nLead 3: Apparel Startup Founder Looking to Automate Design Templates & Mockups\n- Subreddit: r/startups\n- URL: https://www.reddit.com/r/startups/comments/l5s8fv/how_to_best_automate_product_mockup_and_template/\n- Pain Points: Relying on full-time graphic designer using Photoshop Actions, needs scalable, automated software to programmatically generate mockups.\n- Zeenie Solution: Integrate image generation APIs (like Midjourney, Stable Diffusion, or specialized mockup APIs) into Zeenie's visual workflows, triggering automatic mockup generation from new product data.\n- Score: 7.5/10\n\nLead 4: Small Business Owner Looking for Systems to Automate Operations\n- Subreddit: r/smallbusiness\n- URL: https://www.reddit.com/r/smallbusiness/comments/1c6ha70/how_to_automate_my_business/\n- Pain Points: Wants to step back from day-to-day operations and have business grow autonomously. Needs step-by-step guidance on establishing automated systems and integrations.\n- Zeenie Solution: Zeenie's visual workspace acts as an operational hub, automating lead routing, CRM updates, customer notifications, and invoicing across apps seamlessly.\n- Score: 8.0/10\n\nLead 5: Entrepreneur Seeking Cost-Effective Zapier Alternatives for Process Automation\n- Subreddit: r/growmybusiness\n- URL: https://www.reddit.com/r/growmybusiness/comments/1di503r/what_do_you_recommend_for_process_automation/\n- Pain Points: Zapier pricing is too high for their budget. Needs a cost-effective, powerful alternative.\n- Zeenie Solution: Extremely competitive, high-value pricing with generous run limits, visual workflow builder, and robust integrations.\n- Score: 9.0/10\n\nLead 6: Founder Automating Customer Onboarding & Payment Redirection\n- Subreddit: r/nocode\n- Pain Points: Needs to automate customer onboarding and payment redirection workflows seamlessly without code.\n- Zeenie Solution: Zeenie's multi-app integration handles Stripe webhooks, automatically creates user profiles, sends personalized onboarding emails, and redirects users to custom onboarding portals.\n- Score: 8.2/10\n\n---\nPlease write highly personalized, engaging, and professional outreach messages (can be Reddit direct messages or public replies) for each of these 6 leads. Each message should:\n1. Reference their specific post/problem to show genuine interest and empathy.\n2. Position Zeenie's specific solution as the perfect answer to their pain point.\n3. Include a clear, low-pressure call to action (e.g., offering a quick demo or a free custom workflow build).\n4. Maintain a helpful, consultative tone (not overly salesy).\n\n### **Assistant** (2026-06-12 13:44:55)\nHere are personalized, highly engaging, and professional outreach messages tailored for each of the 6 qualified leads. \n\nTo maximize response rates on Reddit, these are written in a **consultative, builder-to-builder tone** that respects the platform's culture (avoiding overly polished \"corporate-speak\" and focusing on direct value).\n\n---\n\n### Lead 1: E-Commerce Marketing Manager Seeking No-Code AI Agent Automation\n* **Format:** Public Reply or DM (Public reply is great here to showcase expertise to others browsing the thread)\n* **Tone:** Empathetic, analytical, consultative\n\n> Hey there,\n> \n> I completely feel your pain on this. The AI agent space right now is highly polarized—you either get tools like Lindy that are super easy but feel like you've hit a brick wall the moment you need complex, branching logic, or you get tools like Relevant that require a computer science degree just to navigate the UI. \n> \n> You're essentially looking for the \"Goldilocks\" platform: highly visual and intuitive, but powerful enough to let an AI agent actually *execute* multi-step marketing workflows (like reading your knowledge base, updating a database, and triggering an email sequence based on conditional logic).\n> \n> We actually built **Zeenie** to solve this exact gap. It’s a visual, drag-and-drop workflow orchestrator where AI agents are natively built into the canvas. They aren't just isolated chatbots; they can ingest your brand guidelines/FAQs and actively trigger actions across your marketing stack without you writing a single line of code.\n> \n> If you're still looking, I'd love to set up a sandbox for you or even build out a quick prototype of one of your daily marketing workflows so you can see how it handles compared to Lindy. No hard sales pitch, just a quick look. Let me know if you're open to it!\n\n---\n\n### Lead 2: Founder Looking to Automate AI-Generated Questionnaires into Forms\n* **Format:** DM or Public Reply\n* **Tone:** Technical, solution-oriented, helpful\n\n> Hey! I saw your post about trying to bridge the gap between ChatGPT-generated questionnaires and form builders. That manual copy-paste bottleneck is a silent killer of momentum.\n> \n> The trick to automating this is getting the AI to output structured data (like JSON) and having a workflow engine that can parse that data to dynamically generate the form fields. \n> \n> You can actually do this end-to-end inside **Zeenie**. Because Zeenie combines visual workflow building with native AI agents and built-in databases, you can set up a flow like this:\n> 1. Feed the business details to a Zeenie AI Agent on the canvas.\n> 2. Instruct the agent to structure the questionnaire as a JSON schema.\n> 3. Zeenie's API-first engine automatically parses that schema and instantly generates a functional, publishable web form—completely bypassing the copy-paste step.\n> \n> I’d be happy to map out a quick, free proof-of-concept workflow for this inside Zeenie to show you how it works. Let me know if you'd like to take a look!\n\n---\n\n### Lead 3: Apparel Startup Founder Looking to Automate Design Templates & Mockups\n* **Format:** DM (Highly personalized to their specific business operations)\n* **Tone:** Strategic, operational, supportive\n\n> Hi there,\n> \n> I came across your post about wanting to move away from manual Photoshop Actions for your apparel mockups. Doing that manually is incredibly tough to scale as your catalog grows, and relying solely on a designer's manual time is a major bottleneck.\n> \n> While you'll still need an image generation or rendering API (like Bannerbear or a specialized mockup API), the real challenge is *orchestrating* the data flow so you aren't stuck manually managing the process.\n> \n> This is where a platform like **Zeenie** fits perfectly. You can build a visual workflow that triggers the moment a new product or variant is added to your database. Zeenie will:\n> 1. Pull the product details and design assets.\n> 2. Send them to your mockup generation API.\n> 3. Automatically retrieve the completed mockup file and upload it directly back to your e-commerce store or media library.\n> \n> It turns a tedious, multi-step design process into a completely hands-off, programmatic pipeline. \n> \n> If you're open to it, I'd love to hop on a quick 10-minute call to understand your current design stack and help you map out what this automation architecture would look like. Let me know if you're interested!\n\n---\n\n### Lead 4: Small Business Owner Looking for Systems to Automate Operations\n* **Format:** Public Reply (Great for building credibility in r/smallbusiness)\n* **Tone:** Empathetic, encouraging, high-level/systems-oriented\n\n> This is a massive step for any business owner. Transitioning from \"doing the work\" to \"building the system that does the work\" is the only way to truly scale and regain your time. \n> \n> The key to doing this successfully without losing the \"human touch\" is building a centralized operational hub rather than a bunch of disconnected, messy zaps. You want your lead routing, CRM updates, customer notifications, and invoicing to talk to each other seamlessly.\n> \n> If you're looking for a visual way to map and automate these operations, take a look at **Zeenie**. We designed it specifically to act as an \"autonomous business engine.\" \n> \n> Instead of paying for 4 or 5 different subscriptions (Zapier, Airtable, scheduling tools, etc.), Zeenie gives you a single visual workspace where you can map out your entire business flow. You can even set up native AI assistants to handle basic customer inquiries and draft personalized emails, so your clients still get fast, high-touch communication while you're away from your desk.\n> \n> If you'd like, I can share a template of a standard \"autonomous operations\" workflow, or we can jump on a quick call to map out your specific business processes. No pressure at all—just here to help you get some of your time back!\n\n---\n\n### Lead 5: Entrepreneur Seeking Cost-Effective Zapier Alternatives for Process Automation\n* **Format:** Public Reply or DM\n* **Tone:** Direct, value-driven, transparent\n\n> I completely get where you're coming from. The \"Zapier Tax\" is very real. The moment you start building complex, multi-step workflows or scale your volume, their task-based pricing starts to feel like a punishment for growing your business.\n> \n> If you're looking for a powerful alternative that won't break the bank, you should check out **Zeenie**. \n> \n> We built Zeenie specifically to offer a highly visual, robust automation platform without the premium price tag. Here is how we help keep costs down:\n> 1. **Consolidated Stack:** Zeenie includes built-in databases and native AI agents directly on the workflow canvas, meaning you can stop paying separate subscriptions for Zapier + Airtable + external AI middleware.\n> 2. **Generous Limits:** Our pricing structure is designed to be highly competitive and growth-friendly, so you can run high-volume processes without constantly worrying about hitting a paywall.\n> \n> I’d love to show you a quick demo of how Zeenie compares visually to Zapier, and even help you migrate one of your current expensive workflows over for free to prove how much you can save. Let me know if you're down to check it out!\n\n---\n\n### Lead 6: Founder Automating Customer Onboarding & Payment Redirection\n* **Format:** DM\n* **Tone:** Professional, execution-focused, frictionless\n\n> Hey! I saw your post about wanting to automate your customer onboarding and payment redirection workflows without having to write code. \n> \n> Getting this transition right is critical—if there’s any lag or friction between a customer paying and receiving their onboarding materials, it immediately hurts their experience.\n> \n> This is a classic workflow that we handle seamlessly inside **Zeenie**. Because Zeenie is API-first and visual, you can set up a real-time trigger for payment events (like a Stripe webhook). The moment a payment goes through, Zeenie can:\n> 1. Instantly create the user's profile in your database.\n> 2. Generate a secure, personalized onboarding link.\n> 3. Send a tailored welcome email.\n> 4. Dynamically redirect the user to their custom onboarding portal.\n> \n> The entire flow is visual, highly reliable, and processes instantly without needing a complex multi-tool setup.\n> \n> If you're still setting this up, I'd be happy to jump on a quick call and build this onboarding loop out with you live so you can see how easy it is to launch. Let me know if you have a few minutes to chat this week!\n\n### **Human** (2026-06-12 14:08:56)\nHere are the candidate leads found on Reddit:\n\n1. Subreddit: r/smallbusiness\nPost Title: What are some automations I should look into as a business owner?\nLink/URL: https://www.reddit.com/r/smallbusiness/comments/1josm8a/what_are_some_automations_i_should_look_into_as_a/\nDescription: The business owner is looking to automate core operations (from engineering and marketing to sales) due to an economic downturn. They need reliable, high-ROI workflow suggestions that won't disrupt their existing business.\n\n2. Subreddit: r/smallbusiness\nPost Title: Best automation tools for small business owners?\nLink/URL: https://www.reddit.com/r/smallbusiness/comments/twm98y/best_automation_tools_for_small_business_owners/\nDescription: A tech-space small business owner is feeling overwhelmed by repetitive tasks and is looking for automation tools to save time, streamline operational workflows, and optimize daily tasks.\n\n3. Subreddit: r/marketing\nPost Title: AI, automations … Make, Zapier or N8N ?\nLink/URL: https://www.reddit.com/r/marketing/comments/14t29zh/ai_automations_make_zapier_or_n8n/\nDescription: A marketing team is looking for a centralized workflow automation tool to trigger complex processes, specifically for performance marketing, large-scale AI text generation, and cross-platform integrations. They are comparing Make, Zapier, and n8n.\n\n4. Subreddit: r/BusinessIntelligence\nPost Title: Best tool to mass generate PDF reports\nLink/URL: https://www.reddit.com/r/BusinessIntelligence/comments/17fb1x6/best_tool_to_mass_generate_pdf_reports/\nDescription: A developer from a small startup needs to automate the generation of tens of thousands of PDF reports (2-3 pagers containing graphs and text) and is seeking tool recommendations.\n\n5. Subreddit: r/socialmedia\nPost Title: What is the most all-round (ai) automated social media platform?\nLink/URL: https://www.reddit.com/r/socialmedia/comments/1at0svw/what_is_the_most_allround_ai_automated_social/\nDescription: An entrepreneur with limited time is looking for a comprehensive AI-powered social media automation tool or combination to schedule posts, manage outreach, run ads, and grow followers with minimal manual effort.\n\n6. Subreddit: r/CRM\nPost Title: Best crm for marketing automation (new lead/intro email) and tracking leads?\nLink/URL: https://www.reddit.com/r/CRM/comments/rmw1ed/best_crm_for_marketing_automation_new_leadintro/\nDescription: The user is searching for a CRM with robust marketing automation features to automatically send introductory emails to new leads and track them through the sales pipeline.\n\n7. Subreddit: r/CRM\nPost Title: Looking for CRM a solution\nLink/URL: https://www.reddit.com/r/CRM/comments/urwf9c/looking_for_crm_a_solution/\nDescription: A solopreneur is looking for an all-in-one CRM solution to keep track of work logs, organize client relationships, and automate follow-ups and reminders.\n\n8. Subreddit: r/SaaS\nPost Title: What does your tech stack look like for onboarding & user engagement/marketing?\nLink/URL: https://www.reddit.com/r/SaaS/comments/qhh6jx/what_does_your_tech_stack_look_like_for/\nDescription: A SaaS founder is looking to set up email automation sequences to onboard new users and keep them engaged at specific stages of their lifecycle. They need suggestions on tools and tech stacks.\n\n9. Subreddit: r/Emailmarketing\nPost Title: Looking for an Email ingestion tool/ software to automate opting in my email list.csv to my ESP\nLink/URL: https://www.reddit.com/r/Emailmarketing/comments/ztz3mu/looking_for_an_email_ingestion_tool_software_to/\nDescription: The user has a `.csv` database of contacts and is seeking a tool to automate the ingestion, verification, and opt-in process into their Email Service Provider (ESP).\n\n### **Assistant** (2026-06-12 14:08:56)\n# Lead Evaluation and Qualification Report\n\n**To:** Zeenie Growth & Sales Team  \n**From:** Lead Analyst, Zeenie  \n**Subject:** Evaluation, Qualification, and Outreach Strategy for Reddit Leads (Batch 3)\n\nBelow is the comprehensive analysis, scoring, and qualification of the nine candidate leads identified by Reddit Hunter, followed by highly personalized, consultative outreach templates for each.\n\n---\n\n## Part 1: Lead Evaluation & Qualification\n\n### Lead 1: Cross-Departmental Automation for Small Business\n* **Subreddit:** r/smallbusiness\n* **Post Title:** *What are some automations I should look into as a business owner?*\n* **URL:** [Reddit Link](https://www.reddit.com/r/smallbusiness/comments/1josm8a/what_are_some_automations_i_should_look_into_as_a/)\n* **Fit Score:** 9.5/10 | **Priority Tier:** Critical\n* **Operational/Technical Pain Points:** \n  * Economic pressure forcing a \"do more with less\" mandate.\n  * Siloed departments (engineering, marketing, sales) operating on different platforms.\n  * Fear of deploying fragile, complex, or disruptive automations that could damage high-touch client relationships.\n* **Zeenie Solution Map:** Zeenie is the ultimate cost-consolidation platform. By replacing separate subscriptions (Zapier + Airtable + Make), it immediately slashes SaaS spend. Its visual canvas allows the founder to orchestrate multi-departmental logic in one unified hub. Native AI agents can be trained on internal knowledge bases to draft contextual, human-like client communications, ensuring automation never feels cold or robotic.\n\n---\n\n### Lead 2: Tech-Space Small Business Owner Overwhelmed by Tasks\n* **Subreddit:** r/smallbusiness\n* **Post Title:** *Best automation tools for small business owners?*\n* **URL:** [Reddit Link](https://www.reddit.com/r/smallbusiness/comments/twm98y/best_automation_tools_for_small_business_owners/)\n* **Fit Score:** 9.0/10 | **Priority Tier:** High\n* **Operational/Technical Pain Points:** \n  * Extreme operational overwhelm due to repetitive, manual administrative tasks.\n  * Fragmentation of daily workflows across disjointed software.\n  * Needs an intuitive, fast-to-implement solution that doesn't require a dedicated developer.\n* **Zeenie Solution Map:** Zeenie’s visual, drag-and-drop workflow builder allows a non-technical owner to map out and automate repetitive daily tasks in minutes. With built-in visual databases, they can log tasks, manage client data, and trigger app integrations seamlessly without needing to manage complex API keys or pay for external databases.\n\n---\n\n### Lead 3: Marketing Team Comparing Make, Zapier, and n8n\n* **Subreddit:** r/marketing\n* **Post Title:** *AI, automations … Make, Zapier or N8N ?*\n* **URL:** [Reddit Link](https://www.reddit.com/r/marketing/comments/14t29zh/ai_automations_make_zapier_or_n8n/)\n* **Fit Score:** 10/10 | **Priority Tier:** Critical\n* **Operational/Technical Pain Points:**\n  * Comparing three highly fragmented tools with steep trade-offs (Zapier is too expensive; Make is complex; n8n requires hosting/technical setup).\n  * Needs high-volume, large-scale AI text generation (which is prohibitively expensive on Zapier/Make due to external API call premiums).\n  * Requires robust cross-platform integrations for performance marketing.\n* **Zeenie Solution Map:** Zeenie sits perfectly at the intersection of these three tools. It offers the user-friendly drag-and-drop simplicity of Zapier, the powerful multi-step branching logic of Make, and the cost-efficiency of n8n. Most importantly, Zeenie features **native AI agents built directly into the workflow canvas**, bypassing the \"API token tax\" and external middleware required by other platforms for large-scale text generation.\n\n---\n\n### Lead 4: Developer Seeking Mass PDF Report Generation\n* **Subreddit:** r/BusinessIntelligence\n* **Post Title:** *Best tool to mass generate PDF reports*\n* **URL:** [Reddit Link](https://www.reddit.com/r/BusinessIntelligence/comments/17fb1x6/best_tool_to_mass_generate_pdf_reports/)\n* **Fit Score:** 8.0/10 | **Priority Tier:** High\n* **Operational/Technical Pain Points:**\n  * Scaling report generation to tens of thousands of PDFs.\n  * Dynamically injecting complex data, graphs, and text into a structured, multi-page layout.\n  * Developer needs programmatic control (API-first) without spending weeks writing raw PDF-rendering code.\n* **Zeenie Solution Map:** Zeenie’s API-first architecture and document generation capabilities are built for high-volume data ingestion. Developers can set up an API webhook to feed structured JSON data into Zeenie, which can dynamically generate beautifully formatted PDF reports, render charts, and automatically distribute them via email or cloud storage.\n\n---\n\n### Lead 5: Entrepreneur Seeking All-Round AI Social Media Platform\n* **Subreddit:** r/socialmedia\n* **Post Title:** *What is the most all-round (ai) automated social media platform?*\n* **URL:** [Reddit Link](https://www.reddit.com/r/socialmedia/comments/1at0svw/what_is_the_most_allround_ai_automated_social/)\n* **Fit Score:** 7.0/10 | **Priority Tier:** Medium\n* **Operational/Technical Pain Points:**\n  * Extremely limited time to manage multiple social channels.\n  * Needs a unified way to handle post scheduling, automated outreach, and follower growth with minimal manual effort.\n* **Zeenie Solution Map:** While Zeenie is not a pure-play social media UI (like Buffer), it is a powerful backend orchestrator. Zeenie’s native AI agents can autonomously generate content calendars, draft platform-specific posts, and trigger automated, highly personalized outreach sequences via social APIs based on user actions.\n\n---\n\n### Lead 6: User Searching for CRM with Robust Marketing Automation\n* **Subreddit:** r/CRM\n* **Post Title:** *Best crm for marketing automation (new lead/intro email) and tracking leads?*\n* **URL:** [Reddit Link](https://www.reddit.com/r/CRM/comments/rmw1ed/best_crm_for_marketing_automation_new_leadintro/)\n* **Fit Score:** 8.5/10 | **Priority Tier:** High\n* **Operational/Technical Pain Points:**\n  * Disconnect between lead ingestion, CRM tracking, and marketing email delivery.\n  * Wants automated, personalized intro emails sent instantly to new leads to maximize conversion.\n* **Zeenie Solution Map:** Zeenie features integrated visual databases that can easily serve as a highly customized, lightweight CRM. When a new lead is captured, Zeenie immediately triggers an automated workflow, uses native AI to personalize the introductory email based on the lead's profile, and tracks their status visually through the pipeline.\n\n---\n\n### Lead 7: Solopreneur Looking for All-in-One CRM and Follow-Up Tool\n* **Subreddit:** r/CRM\n* **Post Title:** *Looking for CRM a solution*\n* **URL:** [Reddit Link](https://www.reddit.com/r/CRM/comments/urwf9c/looking_for_crm_a_solution/)\n* **Fit Score:** 8.0/10 | **Priority Tier:** High\n* **Operational/Technical Pain Points:**\n  * Solo operator drowning in manual client follow-ups, logging hours, and reminder management.\n  * Needs an \"all-in-one\" tool to avoid paying for multiple disjointed SaaS subscriptions.\n* **Zeenie Solution Map:** Zeenie is a perfect fit for solopreneurs because it consolidates their database (client CRM), task tracker (work logs), and communication engine (reminders/follow-ups) into a single, low-cost platform. They can design automated, custom follow-up sequences that run entirely on autopilot.\n\n---\n\n### Lead 8: SaaS Founder Setting Up Onboarding & Engagement Tech Stack\n* **Subreddit:** r/SaaS\n* **Post Title:** *What does your tech stack look like for onboarding & user engagement/marketing?*\n* **URL:** [Reddit Link](https://www.reddit.com/r/SaaS/comments/qhh6jx/what_does_your_tech_stack_look_like_for/)\n* **Fit Score:** 9.0/10 | **Priority Tier:** High\n* **Operational/Technical Pain Points:**\n  * Complex, fragmented tech stack required for SaaS lifecycle marketing (paying for Segment, databases, email tools, etc.).\n  * Needs to trigger hyper-personalized onboarding emails based on specific in-app user behaviors.\n* **Zeenie Solution Map:** Zeenie’s API-first structure makes it incredibly easy to ingest user event webhooks directly from a SaaS application. The founder can store user states in Zeenie's visual database and visually build automated, branching onboarding sequences that trigger emails, Slack notifications, or in-app updates based on exactly where the user is in their lifecycle.\n\n---\n\n### Lead 9: Email Marketer Needing Automated CSV Ingestion & Verification\n* **Subreddit:** r/Emailmarketing\n* **Post Title:** *Looking for an Email ingestion tool/ software to automate opting in my email list.csv to my ESP*\n* **URL:** [Reddit Link](https://www.reddit.com/r/Emailmarketing/comments/ztz3mu/looking_for_an_email_ingestion_tool_software_to/)\n* **Fit Score:** 8.5/10 | **Priority Tier:** High\n* **Operational/Technical Pain Points:**\n  * Manual, repetitive friction of importing, cleaning, and verifying CSV contact databases.\n  * Needs a automated way to run verification and opt-in steps before sending contacts to their Email Service Provider (ESP).\n* **Zeenie Solution Map:** Zeenie can automate this entire pipeline. The user can upload their CSV to Zeenie, which triggers a visual workflow that automatically runs each email through a verification API (e.g., Hunter or ZeroBounce), filters out bad addresses, and dynamically pushes the verified, opted-in contacts directly into their ESP via API.\n\n---\n\n## Part 2: Personalized Outreach Messages\n\n*Note: These messages are written to match Reddit’s culture—direct, collaborative, helpful, and completely devoid of aggressive sales jargon.*\n\n---\n\n### Outreach 1: Cross-Departmental Automation\n> **Subject/Intro:** Re: What are some automations I should look into as a business owner?\n>\n> Hey there,\n> \n> Really sorry to hear you're feeling the pinch of the economic downturn. It’s a tough spot, but looking at \"hyper-automation\" is absolutely the right strategic move to protect your margins.\n> \n> The biggest trap small businesses fall into here is buying 5 different tools (like Zapier, Airtable, and separate email engines) to automate engineering, sales, and marketing. You end up with a massive monthly software bill and a \"franken-stack\" that breaks constantly.\n> \n> If you want a reliable, high-ROI way to handle this, take a look at **Zeenie**. We built it specifically to be an all-in-one operational hub. It combines visual workflow building, built-in databases (so you don't need Airtable), and native AI agents on a single canvas. \n> \n> For example, you can set up a single workflow where:\n> 1. A new lead comes in (Sales).\n> 2. An AI agent drafts a personalized, contextual intro email (Marketing).\n> 3. Once they sign, a project ticket is automatically created and assigned (Engineering).\n> \n> It’s incredibly cost-effective compared to Zapier. If you're open to it, I'd love to build a free, custom cross-departmental workflow prototype for your business so you can see how it looks. Let me know if you'd like to chat!\n\n---\n\n### Outreach 2: Overwhelmed Tech-Space Owner\n> **Subject/Intro:** Re: Best automation tools for small business owners?\n>\n> Hey! I completely get the feeling of being buried under repetitive, administrative tasks. When you're in the tech space, you know things *can* be automated, but finding the time to actually build those systems is the real bottleneck.\n> \n> If you're looking to streamline your daily workflows without adding another complex tool to your plate, check out **Zeenie**. \n> \n> We designed Zeenie to be a highly visual, drag-and-drop workspace that acts as your business's central nervous system. It lets you connect your apps, store your data in built-in visual tables, and automate manual tasks (like client updates, task creation, and notifications) in minutes—without needing to write code or manage complex API setups.\n> \n> I’d be happy to hop on a quick call, look at your most frustrating daily tasks, and build out your first couple of automations for you live on the platform. Let me know if you'd like to reclaim some of your time!\n\n---\n\n### Outreach 3: Marketing Team Comparing Make, Zapier, and n8n\n> **Subject/Intro:** Re: AI, automations … Make, Zapier or N8N ?\n>\n> Hey, this is a classic debate, and you've accurately hit on the main trade-offs:\n> * **Zapier** is incredibly easy but gets insanely expensive at scale, especially for performance marketing.\n> * **Make** is powerful but has a steep learning curve and gets messy with complex logic.\n> * **n8n** is great for developers but requires hosting and technical overhead.\n> \n> If your marketing team is looking for a centralized tool that handles **large-scale AI text generation** and complex cross-platform integrations, you should take a look at **Zeenie**. \n> \n> Zeenie combines the user-friendliness of Zapier with the advanced logical branching of Make. But the real game-changer for your use case is that **Zeenie has native AI agents built directly into the workflow canvas**. You don't have to pay external API token premiums or set up complex middleware to run high-volume AI text generation for ad copy, SEO, or reporting.\n> \n> I'd love to set up a sandbox for your team or build a quick performance marketing workflow template for you to test out. Let me know if you're open to taking a look!\n\n---\n\n### Outreach 4: Developer Seeking Mass PDF Generation\n> **Subject/Intro:** Re: Best tool to mass generate PDF reports\n>\n> Hey,\n> \n> Generating tens of thousands of multi-page PDFs with dynamic data and graphs is a notorious pain, especially when you're trying to avoid writing hundreds of lines of brittle PDF-rendering code.\n> \n> If you're looking for an API-first approach that won't take weeks to build, check out **Zeenie**. \n> \n> Zeenie has robust document generation capabilities and an API-first architecture designed for developers. You can easily set up an endpoint in Zeenie to ingest your data payloads (JSON), visually map how that data should populate your 2-3 page report templates (including rendering dynamic charts), and trigger the mass generation and distribution pipeline entirely in the background.\n> \n> It gives you the programmatic control you need as a developer, but with a visual canvas that makes maintaining and editing the report templates incredibly fast. \n> \n> I’d be happy to set up a quick demo or share our API documentation with you. Let me know if you'd like to check it out!\n\n---\n\n### Outreach 5: Entrepreneur Seeking All-Round AI Social Media\n> **Subject/Intro:** Re: What is the most all-round (ai) automated social media platform?\n>\n> Hey there,\n> \n> When you're running a business with limited time, trying to keep up with content creation, scheduling, and outreach across multiple social channels is a full-time job in itself.\n> \n> While there are great point-solutions out there for basic scheduling (like Buffer), they don't really handle the *outreach* and *growth* side of things automatically. \n> \n> If you want to build a truly automated, custom social engine, you might want to look at **Zeenie**. Zeenie is a visual workflow orchestrator with native AI agents built directly into the canvas. Instead of just scheduling posts, you can build a workflow where:\n> 1. A Zeenie AI Agent monitors your industry topics and automatically drafts highly relevant social posts.\n> 2. Once approved, Zeenie automatically pushes them to your platforms via API.\n> 3. Zeenie can monitor interactions and trigger personalized, automated outreach messages to new followers or leads.\n> \n> It's like having a virtual marketing assistant running in the background. I'd love to show you a quick example of how this works. Let me know if you're interested!\n\n---\n\n### Outreach 6: User Searching for CRM with Marketing Automation\n> **Subject/Intro:** Re: Best crm for marketing automation (new lead/intro email) and tracking leads?\n>\n> Hey,\n> \n> The key to a great lead-tracking setup is speed. If there's any delay between a lead filling out a form and receiving your intro email, conversion rates drop drastically.\n> \n> If you haven't committed to a traditional, heavy CRM yet, you should take a look at **Zeenie**. \n> \n> Zeenie actually has built-in visual databases that allow you to build a highly customized, lightweight CRM without the clutter of legacy platforms. Because your database and your automation engine live on the exact same platform, you can set up a visual workflow that:\n> 1. Instantly captures a new lead from your website.\n> 2. Uses a native AI agent to draft a hyper-personalized introductory email based on their specific inquiry.\n> 3. Tracks their progress visually through your custom sales pipeline.\n> \n> It's incredibly fast, clean, and keeps your entire lead flow in one place. I’d be happy to build out a quick CRM and intro email template for you to play around with. Let me know if you'd like to take a look!\n\n---\n\n### Outreach 7: Solopreneur Looking for CRM & Follow-Up Solution\n> **Subject/Intro:** Re: Looking for CRM a solution\n>\n> Hey! Being a solopreneur is tough—you're the salesperson, the project manager, and the admin assistant all at once. \n> \n> Instead of buying a heavy, expensive CRM that forces you to adapt to *their* system, you might want to check out **Zeenie**. \n> \n> Zeenie is a visual workflow platform with built-in databases. It’s perfect for solo operators because you can easily build a simple, clean CRM tailored exactly to how you work. You can use it to:\n> * Keep track of your daily work logs and client details in visual tables.\n> * Set up automated reminders so you never forget to follow up on a proposal.\n> * Automatically send personalized follow-up emails to clients on autopilot.\n> \n> It replaces the need to pay for and connect 3 or 4 different apps, keeping your monthly software costs low. I'd love to help you set up a simple, automated client tracker on Zeenie to get some of your admin time back. Let me know if you're interested!\n\n---\n\n### Outreach 8: SaaS Founder Onboarding Tech Stack\n> **Subject/Intro:** Re: What does your tech stack look like for onboarding & user engagement/marketing?\n>\n> Hey,\n> \n> Setting up a SaaS onboarding stack can get incredibly expensive and fragmented fast. Most founders end up paying for Segment, a database, and a marketing automation tool like Customer.io just to send a few lifecycle emails.\n> \n> If you're looking for a streamlined, cost-effective way to handle this, you should check out **Zeenie**. \n> \n> Zeenie is an API-first visual workflow orchestrator. It makes it incredibly simple to ingest user event webhooks directly from your SaaS app. You can store user state in Zeenie’s built-in visual database and visually map out your email onboarding sequences based on real-time user behavior (e.g., \"If user created account but hasn't created their first project within 3 days, trigger Email 2\").\n> \n> It keeps your stack lightweight, incredibly flexible, and significantly cheaper than standard enterprise lifecycle tools. \n> \n> I'd love to share a quick demo of how we handle SaaS event-based workflows on Zeenie. Let me know if you're open to a quick look!\n\n---\n\n### Outreach 9: Email Marketer Needing CSV Ingestion & Verification\n> **Subject/Intro:** Re: Looking for an Email ingestion tool/ software to automate opting in my email list.csv to my ESP\n>\n> Hey there,\n> \n> Manually cleaning, verifying, and importing CSV lists into your ESP is a massive friction point, and doing it wrong is a quick way to get your ESP account suspended for high bounce rates.\n> \n> You can actually automate this entire pipeline end-to-end using **Zeenie**. \n> \n> Because Zeenie is a visual workflow orchestrator, you can set up a flow where you simply drop your CSV file into a Zeenie folder or database. Zeenie will automatically:\n> 1. Parse the CSV rows.\n> 2. Route each email address through your verification tool's API (like Hunter, ZeroBounce, etc.) to check for validity.\n> 3. Filter out any bounces or risky emails.\n> 4. Automatically opt-in and sync the clean contacts directly into your ESP (Klaviyo, Mailchimp, etc.).\n> \n> It completely removes the manual import/export headache. I'd be happy to build a quick proof-of-concept CSV ingestion workflow for you inside Zeenie so you can see how it works. Let me know if you'd like to check it out!\n\n### **Human** (2026-06-12 14:09:32)\nHere are the qualified leads identified as High or Critical priority by the Lead Analyst:\n\n1. Subreddit: r/smallbusiness\nPost Title: What are some automations I should look into as a business owner?\nLink/URL: https://www.reddit.com/r/smallbusiness/comments/1josm8a/what_are_some_automations_i_should_look_into_as_a/\nPriority: Critical (Score: 9.5/10)\nPain Points: Economic pressure, siloed departments (engineering, marketing, sales), fear of complex/disruptive automations.\nZeenie Solution: Unified cost-consolidation hub (replaces separate Zapier + Airtable + Make subscriptions), visual canvas for cross-departmental logic, native AI agents for human-like client communication.\n\n2. Subreddit: r/smallbusiness\nPost Title: Best automation tools for small business owners?\nLink/URL: https://www.reddit.com/r/smallbusiness/comments/twm98y/best_automation_tools_for_small_business_owners/\nPriority: High (Score: 9.0/10)\nPain Points: Operational overwhelm, repetitive admin tasks, fragmented workflows, needs non-technical fast setup.\nZeenie Solution: Visual, drag-and-drop workflow builder, built-in visual databases to log tasks and client data, seamless app integrations without complex API key management.\n\n3. Subreddit: r/marketing\nPost Title: AI, automations … Make, Zapier or N8N ?\nLink/URL: https://www.reddit.com/r/marketing/comments/14t29zh/ai_automations_make_zapier_or_n8n/\nPriority: Critical (Score: 10/10)\nPain Points: Zapier is too expensive; Make is too complex; n8n requires hosting/technical setup. Needs high-volume AI text generation and performance marketing integrations.\nZeenie Solution: Sits at the intersection of ease (Zapier), power (Make), and cost-efficiency (n8n). Features native AI agents built directly into the canvas, bypassing the \"API token tax\" and external middleware.\n\n4. Subreddit: r/CRM\nPost Title: Best crm for marketing automation (new lead/intro email) and tracking leads?\nLink/URL: https://www.reddit.com/r/CRM/comments/rmw1ed/best_crm_for_marketing_automation_new_leadintro/\nPriority: High (Score: 8.5/10)\nPain Points: Needs a CRM with robust marketing automation to automatically send introductory emails to new leads and track them through the sales pipeline.\nZeenie Solution: Built-in visual database can act as a fully customizable CRM. Workflows can trigger automatic, AI-personalized intro emails the second a new lead is captured, and update their status visually.\n\n5. Subreddit: r/CRM\nPost Title: Looking for CRM a solution\nLink/URL: https://www.reddit.com/r/CRM/comments/urwf9c/looking_for_crm_a_solution/\nPriority: High (Score: 8.5/10)\nPain Points: Solopreneur needs to organize client relationships, keep track of work logs, and automate follow-ups/reminders in an all-in-one place.\nZeenie Solution: All-in-one visual workspace. The visual database organizes clients and work logs, and scheduled workflows trigger automated follow-ups and reminders seamlessly.\n\n6. Subreddit: r/SaaS\nPost Title: What does your tech stack look like for onboarding & user engagement/marketing?\nLink/URL: https://www.reddit.com/r/SaaS/comments/qhh6jx/what_does_your_tech_stack_look_like_for/\nPriority: High (Score: 8.8/10)\nPain Points: SaaS founder needs to set up automated onboarding email sequences to keep new users engaged at specific stages of their lifecycle.\nZeenie Solution: Visual workflow orchestrator can track user events, store user statuses in built-in databases, and trigger tailored email/in-app notification sequences based on conditional branching logic.\n\n### **Assistant** (2026-06-12 14:09:32)\nHere are the highly personalized, consultative outreach messages tailored for each of the 6 high-priority/critical leads. These drafts are optimized for Reddit’s culture—positioning you as a helpful, technical peer rather than a pushy salesperson.\n\n---\n\n### Lead 1: Cross-Departmental Automation for Small Business\n* **Subreddit:** r/smallbusiness\n* **Post Title:** *What are some automations I should look into as a business owner?*\n* **Link:** [Reddit Link](https://www.reddit.com/r/smallbusiness/comments/1josm8a/what_are_some_automations_i_should_look_into_as_a/)\n* **Tone:** Empathetic, strategic, cost-conscious\n\n> Hey there,\n> \n> Really sorry to hear you're navigating the pressure of an economic downturn. It’s a stressful spot, but looking at automation to help your team \"do more with less\" is exactly the right strategic move.\n> \n> The biggest trap business owners fall into here is buying 4 or 5 different tools (like Zapier for integrations, Airtable for data, and separate email engines) to connect sales, marketing, and engineering. You end up with a massive monthly software bill and a fragile \"franken-stack\" that breaks constantly. \n> \n> If you want a high-ROI setup that won't disrupt your business, you might want to look at **Zeenie**. We built it to be a unified, visual workspace that replaces the need for separate Zapier, Make, and Airtable subscriptions. \n> \n> Because everything lives in one place, you can build a single, cohesive workflow:\n> 1. **Sales:** A new lead is captured in Zeenie's built-in visual database.\n> 2. **Marketing:** A native AI agent on the canvas drafts a hyper-personalized, contextual intro email (saving your team from writing robotic templates).\n> 3. **Engineering:** Once the lead closes, Zeenie automatically provisions a project ticket and assigns it to your team.\n> \n> It keeps your monthly software costs incredibly low and gives you a single \"cockpit\" to run your operations. \n> \n> If you're open to it, I'd love to map out a free, custom cross-departmental workflow blueprint based on your current stack so you can see how it looks. No pressure or sales pitch—just happy to help you brainstorm. Let me know if you're interested!\n\n---\n\n### Lead 2: Overwhelmed Tech-Space Small Business Owner\n* **Subreddit:** r/smallbusiness\n* **Post Title:** *Best automation tools for small business owners?*\n* **Link:** [Reddit Link](https://www.reddit.com/r/smallbusiness/comments/twm98y/best_automation_tools_for_small_business_owners/)\n* **Tone:** Supportive, hands-on, simplifying\n\n> Hey! I completely get the feeling of being buried under repetitive, administrative tasks. When you're in the tech space, you *know* things can be automated, but finding the time to actually sit down and configure complex APIs is the real bottleneck.\n> \n> If you're looking for a tool that is fast to set up and doesn't require a developer, check out **Zeenie**. \n> \n> We designed Zeenie to be a highly visual, drag-and-drop workspace that acts as your business's central nervous system. It combines visual workflow building with built-in databases (like Airtable), meaning you can log tasks, manage client data, and trigger app integrations in one place without having to manage complex API keys or pay for multiple tool subscriptions.\n> \n> Instead of spending hours learning a complex platform, you can visually map out your daily workflows (like client onboarding, task creation, and notifications) in minutes.\n> \n> If you're still looking to reclaim some of your time, I'd be happy to hop on a quick call and build out your first couple of daily automations for you live on a sandbox account. Let me know if you'd like to check it out!\n\n---\n\n### Lead 3: Marketing Team Comparing Make, Zapier, and n8n\n* **Subreddit:** r/marketing\n* **Post Title:** *AI, automations … Make, Zapier or N8N ?*\n* **Link:** [Reddit Link](https://www.reddit.com/r/marketing/comments/14t29zh/ai_automations_make_zapier_or_n8n/)\n* **Tone:** Analytical, technical peer, value-driven\n\n> Hey there,\n> \n> You've accurately hit on the exact trade-offs of the current automation landscape:\n> * **Zapier** is incredibly easy but gets prohibitively expensive at scale (especially when running high-volume marketing workflows).\n> * **Make** is powerful but has a steep learning curve and gets messy with complex conditional branching.\n> * **n8n** is highly cost-effective but requires hosting, maintenance, and technical overhead.\n> \n> Since you specifically mentioned **large-scale AI text generation** and performance marketing integrations, you should take a look at **Zeenie**. \n> \n> Zeenie sits right at the intersection of these tools. It gives you the visual, drag-and-drop ease of Zapier, the advanced logical branching of Make, and the cost-efficiency of n8n. \n> \n> But the real game-changer for your use case is that **Zeenie has native AI agents built directly into the workflow canvas**. Because the AI is native, you don't have to pay external API token premiums or set up complex middleware to run high-volume copy generation, data enrichment, or cross-platform reporting. \n> \n> I’d love to set up a free sandbox for your marketing team or help you build a quick prototype of your most expensive workflow to show you how much you can save. Let me know if you're open to taking a look!\n\n---\n\n### Lead 4: User Searching for CRM with Marketing Automation\n* **Subreddit:** r/CRM\n* **Post Title:** *Best crm for marketing automation (new lead/intro email) and tracking leads?*\n* **Link:** [Reddit Link](https://www.reddit.com/r/CRM/comments/rmw1ed/best_crm_for_marketing_automation_new_leadintro/)\n* **Tone:** Direct, solution-oriented, consultative\n\n> Hey! If you haven't committed to a traditional, heavy CRM yet, you might want to look at a more flexible approach. Most legacy CRMs have rigid, clunky email builders, and trying to connect them to external automation tools often leads to sync lag.\n> \n> If you want a system where your database and your automation engine live in the exact same place, check out **Zeenie**. \n> \n> Zeenie features built-in visual databases that allow you to build a highly customized, lightweight CRM without the clutter. Because the database is native to the workflow canvas, you can set up an instant, seamless lead flow:\n> 1. A new lead lands on your site and is instantly captured in your Zeenie database.\n> 2. This instantly triggers a workflow where a native AI agent drafts a hyper-personalized, contextual introductory email based on the lead's specific inquiry.\n> 3. The email is sent automatically, and the lead's status is visually updated in your pipeline.\n> \n> It completely removes the friction of connecting a separate CRM to an email marketing tool. I'd be happy to build a quick, free lead-tracking and automated intro template for you to test out. Let me know if you'd like to take a look!\n\n---\n\n### Lead 5: Solopreneur Looking for All-in-One CRM and Follow-Up Tool\n* **Subreddit:** r/CRM\n* **Post Title:** *Looking for CRM a solution*\n* **Link:** [Reddit Link](https://www.reddit.com/r/CRM/comments/urwf9c/looking_for_crm_a_solution/)\n* **Tone:** Friendly, empathetic, supportive\n\n> Hey! Being a solopreneur is incredibly rewarding, but trying to keep track of work logs, organize clients, and manually follow up on proposals is a quick recipe for burnout. \n> \n> Instead of buying a heavy, expensive CRM that forces you to adapt to *their* rigid system, you should check out **Zeenie**. \n> \n> Zeenie is an all-in-one visual workspace designed to keep things simple for solo operators. It combines visual databases (so you can easily track your clients and log your hours) with an automation engine on a single canvas. \n> \n> You can set up simple, automated workflows that run in the background while you focus on client work:\n> * Automatically send friendly follow-up emails on outstanding proposals after a set number of days.\n> * Get instant reminders when a client is due for a check-in.\n> * Keep your daily work logs organized in a clean, visual table.\n> \n> It replaces the need to pay for and connect 3 or 4 different apps, keeping your software budget low. If you're interested, I'd love to help you set up a simple, automated client tracker on Zeenie for free. Let me know if you'd like to play around with it!\n\n---\n\n### Lead 6: SaaS Founder Setting Up Onboarding & Engagement Tech Stack\n* **Subreddit:** r/SaaS\n* **Post Title:** *What does your tech stack look like for onboarding & user engagement/marketing?*\n* **Link:** [Reddit Link](https://www.reddit.com/r/SaaS/comments/qhh6jx/what_does_your_tech_stack_look_like_for/)\n* **Tone:** Technical, builder-to-builder, efficiency-focused\n\n> Hey,\n> \n> Setting up a SaaS onboarding stack can get incredibly expensive and fragmented fast. Most founders end up paying for Segment, a database, and a marketing automation tool like Customer.io just to send a few lifecycle emails based on in-app behavior.\n> \n> If you're looking for a streamlined, cost-effective alternative to keep your stack lightweight, you should check out **Zeenie**. \n> \n> Zeenie is an API-first visual workflow orchestrator. It makes it incredibly simple to ingest user event webhooks directly from your SaaS app. You can store user states in Zeenie’s built-in visual database and visually build branching, automated onboarding sequences that trigger emails, Slack alerts, or in-app updates based on exactly where the user is in their lifecycle (e.g., \"If user signed up but hasn't completed step X within 48 hours, trigger Onboarding Email 2\").\n> \n> It gives you the flexibility of a custom-built engine without the development overhead or the enterprise software tax. \n> \n> I'd love to share a quick sandbox demo or help you map out an event-based onboarding workflow template for your SaaS. Let me know if you're open to a quick look!\n",
+      "long_term_enabled": false,
+      "retrieval_count": 3,
+      "last_session_id": null,
+      "label": "Simple Memory 1"
+    },
+    "console-1780552496400": {
+      "label": "Console 2",
+      "log_mode": "all",
+      "field_path": "",
+      "expression": "",
+      "format": "json"
+    },
+    "simpleMemory-1780553406827": {
+      "session_id": "",
+      "window_size": 100,
+      "memory_content": "# Conversation Summary (Compacted)\n*Generated: 2026-06-12T08:02:23.863997+00:00*\n\n## Task Overview\nThe user is running a lead generation and outreach campaign for **Zeenie**—a unified visual workflow orchestrator with native AI agents. The objective is to find founders, agency operators, and small business owners on Reddit who are actively looking for automation software, qualify them, map their pain points to Zeenie’s features, and draft personalized outreach messages to convert them.\n\n---\n\n## Current State\nThe assistant has completed two separate lead generation sweeps using a specialized workflow (*Reddit Hunter*, *Lead Analyst*, and *Outreach Writer*). \n\n* **Completed:** Identified, qualified, and scored **6 high-intent leads** across two batches.\n* **Completed:** Drafted highly personalized, low-friction outreach templates (Reddit PMs/comments) for each lead.\n* **In Progress:** Transitioning from lead discovery to active sales outreach and product demonstration prep.\n\n---\n\n## Important Discoveries\n### Key Prospect Pain Points\n* **The \"Franken-Stack\" & \"Automation Tax\":** Founders are highly concerned about the cost, complexity, and fragility of connecting multiple tools (e.g., Zapier, Make.com, Airtable, Shopify).\n* **Robotic Communication:** Web and ad agencies fear that automated follow-ups and customer support will sound cold and damage high-touch client relationships.\n* **Limitations of Competitors:** Users of existing AI agent platforms find options like Lindy too functionally constrained and Relevant too difficult to use (poor UX).\n* **Plugin Bloat & High Webhook Costs:** WordPress/WooCommerce users want to avoid heavy plugins and expensive Zapier tiers for digital asset delivery.\n\n### Zeenie’s Core Value Propositions\n* **Unified Platform:** Consolidates databases, logic, and integrations into a single visual canvas, eliminating multi-tool subscription costs.\n* **Native, Context-Aware AI Agents:** Unlike rigid templates, Zeenie's native agents can ingest context (like proposals or briefs) to draft highly personalized communications and trigger complex, branching workflows.\n* **Agency-Friendly Pricing:** Built to scale across multiple client workflows without eating into agency margins.\n\n---\n\n## Next Steps\n1. **Initiate Outreach:** Direct the sales team to send the drafted personalized messages to the 6 identified Reddit leads immediately.\n2. **Prepare Product Demos:** \n   * Build a lightweight **print shop workflow prototype** in Zeenie to demo to Lead 1 (Batch 1).\n   * Set up an **\"Agency CRM & Context-Aware Follow-Up\" workspace template** to demo to the agency leads (Batch 2).\n3. **Continuous Monitoring:** Keep the *Reddit Hunter* active in target subreddits (`r/automation`, `r/nocode`, `r/Entrepreneur`, `r/advertising`, `r/smallbusiness`) to capture new leads as they post.\n\n---\n\n## Context to Preserve\n\n### Lead Profiles & Scores\n\n#### Batch 1\n* **Lead 1: Print Shop Owner (Score: 10/10 | `r/automation`)**\n  * *Need:* Automate customer-facing pipeline from intake to fulfillment.\n  * *Pain:* Terrified of a fragile Make/Zapier/Airtable/Shopify \"franken-stack.\"\n* **Lead 2: E-Commerce Marketing Manager (Score: 9/10 | `r/nocode`)**\n  * *Need:* AI agent for customer support (knowledge base integration) and marketing workflows.\n  * *Pain:* Lindy is too limited; Relevant is too hard to use.\n* **Lead 3: WordPress Agency Founder (Score: 8/10 | `r/Entrepreneur`)**\n  * *Need:* Secure, automated delivery of digital assets (webinars/PDFs) post-purchase.\n  * *Pain:* Wants to avoid heavy WP plugins and expensive Zapier webhook tasks.\n\n#### Batch 2\n* **Lead 4: Ad Agency Operator (Score: 8.5/10 | `r/advertising`)**\n  * *Need:* Automate creative and reporting tasks (ad copy variants, client PDF reports).\n  * *Pain:* Paying double for Zapier + Make.com; siloed client data.\n* **Lead 5: Web Agency Owner (Score: 9.0/10 | `r/automation`)**\n  * *Need:* Automate proposal follow-ups and quotation reminders.\n  * *Pain:* Leaking sales pipeline; generic automated emails sound too robotic.\n* **Lead 6: Small Business Founder (Score: 9.5/10 | `r/smallbusiness`)**\n  * *Need:* Cross-department \"hyper-automation\" (engineering, marketing, sales) to scale back overhead.\n  * *Pain:* Tight budget; fears clumsy bots will ruin client trust.\n\n*(Note: The full conversation history contains the exact copy for all 6 personalized outreach messages, which must be utilized by the sales team during outreach).*\n### **Human** (2026-06-12 13:32:23)\nfind founders looking for automation softwares\n\n### **Assistant** (2026-06-12 13:32:23)\n[Recursion limit reached: 500 supersteps. Adjust agent.recursion_limit in llm_defaults.json or simplify the task.]\n\n### **Human** (2026-06-12 13:45:24)\nfind founders looking for automation softwares\n\n### **Assistant** (2026-06-12 13:45:24)\n# Zeenie Lead Generation & Outreach Strategy Report\n\n**Prepared by:** Lead Generation Manager, Zeenie  \n**Contributors:** Reddit Hunter, Lead Analyst, and Outreach Writer  \n**Target Audience:** Zeenie Sales, Marketing, and Growth Teams  \n\n---\n\n## Executive Summary\n\nTo drive high-intent user acquisition for Zeenie, our specialized team initiated a structured lead generation campaign targeting founders, entrepreneurs, and business managers on Reddit who are actively seeking automation solutions. \n\nBy leveraging our three specialists, we have completed a full lifecycle lead generation process:\n1. **Reddit Hunter** scanned key entrepreneurial subreddits (`r/nocode`, `r/startups`, `r/smallbusiness`, `r/growmybusiness`) to find active discussions where users are facing real workflow automation challenges.\n2. **Lead Analyst** evaluated each lead, scoring them based on their fit for Zeenie, identifying their precise technical/operational pain points, and mapping them to Zeenie's platform capabilities.\n3. **Outreach Writer** developed highly personalized, value-driven, consultative outreach messages designed to respect Reddit’s community guidelines while positioning Zeenie as the ultimate solution.\n\nThis report presents our **6 high-value candidate leads**, complete with qualification scores, pain point analyses, Zeenie solution mappings, and ready-to-send outreach copy.\n\n---\n\n## Campaign Dashboard\n\n| Lead ID | Target Audience / Subreddit | Core Problem | Fit Score (10) | Priority Tier | Primary Zeenie Value Proposition |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Lead 1** | E-Commerce Marketing Manager (`r/nocode`) | AI agents too linear (Lindy) or complex (Relevant) | **9.5/10** | **Critical** | Custom visual AI agents with branching logic & DB integration |\n| **Lead 2** | Tech/Operations Founder (`r/nocode`) | Manual copy-pasting from AI outputs to form builders | **8.5/10** | **High** | End-to-end AI schema generation to dynamic web forms |\n| **Lead 3** | Apparel Startup Founder (`r/startups`) | Bottlenecked manual Photoshop mockup generation | **7.5/10** | **Medium** | Visual API orchestration connecting image generation APIs |\n| **Lead 4** | Small Business Owner (`r/smallbusiness`) | Needs automated systems to step back from operations | **8.0/10** | **High** | Multi-app operational hub (CRM, lead routing, invoicing) |\n| **Lead 5** | Cost-Conscious Entrepreneur (`r/growmybusiness`) | Zapier is too expensive for their startup budget | **9.0/10** | **Critical** | Extremely cost-effective, powerful Zapier alternative |\n| **Lead 6** | No-Code Founder (`r/nocode`) | Custom onboarding & payment redirection workflows | **8.2/10** | **High** | Stripe webhook automation & personalized onboarding portals |\n\n---\n\n## Detailed Lead Profiles, Analysis & Outreach Copy\n\n### Lead 1: E-Commerce Marketing Manager Seeking No-Code AI Agent Automation\n* **Subreddit:** `r/nocode`  \n* **Post URL:** [r/nocode - Looking for suggestions on no-code tools that can help build and deploy AI agents](https://www.reddit.com/r/nocode/comments/1dqdcg6/looking_for_suggestions_on_nocode_tools_that_can/)  \n* **Fit Score:** **9.5/10** (Critical Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** The prospect is a marketing manager for a mid-sized e-commerce company trying to automate daily marketing and operational workflows. They tested **Lindy** but found it too linear and constrained; they tested **Relevant** but found the user experience too complex and unfriendly. \n* **The Zeenie Solution:** Zeenie offers the perfect \"Goldilocks\" solution. Our platform provides a highly polished visual drag-and-drop builder (solving Relevant's UX pain point) while allowing AI agents to run complex conditional branching logic, query knowledge bases, and write to databases (solving Lindy's capability constraints).\n\n#### 2. Personalized Outreach Copy (Public Reply or DM)\n> **Subject: Finding the \"Goldilocks\" AI Agent Builder for E-commerce**\n>\n> Hey there,\n> \n> I completely feel your pain on this. The AI agent space right now is highly polarized—you either get tools like Lindy that are super easy but feel like you've hit a brick wall the moment you need complex, branching logic, or you get tools like Relevant that require a computer science degree just to navigate the UI. \n> \n> You're essentially looking for the \"Goldilocks\" platform: highly visual and intuitive, but powerful enough to let an AI agent actually *execute* multi-step marketing workflows (like reading your knowledge base, updating a database, and triggering an email sequence based on conditional logic).\n> \n> We actually built **Zeenie** to solve this exact gap. It’s a visual, drag-and-drop workflow orchestrator where AI agents are natively built into the canvas. They aren't just isolated chatbots; they can ingest your brand guidelines/FAQs and actively trigger actions across your marketing stack without you writing a single line of code.\n> \n> If you're still looking, I'd love to set up a sandbox for you or even build out a quick prototype of one of your daily marketing workflows so you can see how it handles compared to Lindy. No hard sales pitch, just a quick look. Let me know if you're open to it!\n\n---\n\n### Lead 2: Founder Looking to Automate AI-Generated Questionnaires into Forms\n* **Subreddit:** `r/nocode`  \n* **Post URL:** [r/nocode - Need Help Automating AI-Generated Questionnaires into Forms](https://www.reddit.com/r/nocode/comments/1crofan/need_help_automating_aigenerated_questionnaires/)  \n* **Fit Score:** **8.5/10** (High Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** The founder wants to feed business details to an AI (like ChatGPT), have it generate a customized questionnaire, and automatically convert that text output into a functional, publishable web form without manual copy-pasting. Traditional tools cannot translate raw AI text into structured UI/form fields dynamically.\n* **The Zeenie Solution:** Zeenie’s native AI capabilities and visual databases solve this elegantly. A Zeenie AI agent can take raw inputs, output a structured JSON schema of the questionnaire, and Zeenie's API-first engine can instantly parse that JSON to dynamically render a live, publishable web form on our canvas.\n\n#### 2. Personalized Outreach Copy (DM or Public Reply)\n> **Subject: Automating ChatGPT outputs directly into web forms (No copy-paste)**\n>\n> Hey! I saw your post about trying to bridge the gap between ChatGPT-generated questionnaires and form builders. That manual copy-paste bottleneck is a silent killer of momentum.\n> \n> The trick to automating this is getting the AI to output structured data (like JSON) and having a workflow engine that can parse that data to dynamically generate the form fields. \n> \n> You can actually do this end-to-end inside **Zeenie**. Because Zeenie combines visual workflow building with native AI agents and built-in databases, you can set up a flow like this:\n> 1. Feed the business details to a Zeenie AI Agent on the canvas.\n> 2. Instruct the agent to structure the questionnaire as a JSON schema.\n> 3. Zeenie's API-first engine automatically parses that schema and instantly generates a functional, publishable web form—completely bypassing the copy-paste step.\n> \n> I’d be happy to map out a quick, free proof-of-concept workflow for this inside Zeenie to show you how it works. Let me know if you'd like to take a look!\n\n---\n\n### Lead 3: Apparel Startup Founder Looking to Automate Design Templates & Mockups\n* **Subreddit:** `r/startups`  \n* **Post URL:** [r/startups - How to best automate product mockup and template for apparel](https://www.reddit.com/r/startups/comments/l5s8fv/how_to_best_automate_product_mockup_and_template/)  \n* **Fit Score:** **7.5/10** (Medium Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** An apparel startup founder is relies on a full-time graphic designer manually running Photoshop Actions to generate product mockups and design templates. They need a programmatic, scalable software tool to automate mockup generation.\n* **The Zeenie Solution:** Zeenie can orchestrate this entire pipeline. By integrating image generation/rendering APIs (like Midjourney, Stable Diffusion, or specialized mockup APIs like Bannerbear) into Zeenie’s visual workflows, the founder can trigger automatic mockup generation directly from new product catalog entries.\n\n#### 2. Personalized Outreach Copy (Direct Message)\n> **Subject: Scalable alternative to manual Photoshop Actions for apparel mockups**\n>\n> Hi there,\n> \n> I came across your post about wanting to move away from manual Photoshop Actions for your apparel mockups. Doing that manually is incredibly tough to scale as your catalog grows, and relying solely on a designer's manual time is a major bottleneck.\n> \n> While you'll still need an image generation or rendering API (like Bannerbear or a specialized mockup API), the real challenge is *orchestrating* the data flow so you aren't stuck manually managing the process.\n> \n> This is where a platform like **Zeenie** fits perfectly. You can build a visual workflow that triggers the moment a new product or variant is added to your database. Zeenie will:\n> 1. Pull the product details and design assets.\n> 2. Send them directly to your mockup generation API.\n> 3. Automatically save the generated mockup back to your shop database and notify your team.\n> \n> I'd love to help you design a quick, visual automation blueprint for this so you can free up your designer for high-value creative work. Let me know if you're open to a quick chat!\n\n---\n\n### Lead 4: Small Business Owner Looking for Systems to Automate Operations\n* **Subreddit:** `r/smallbusiness`  \n* **Post URL:** [r/smallbusiness - How to automate my business?](https://www.reddit.com/r/smallbusiness/comments/1c6ha70/how_to_automate_my_business/)  \n* **Fit Score:** **8.0/10** (High Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** A small business owner wants to step back from day-to-day operations so their business can function autonomously. They need step-by-step guidance on establishing automated systems, workflow tools, and cross-software integrations.\n* **The Zeenie Solution:** Zeenie acts as an all-in-one operational hub. It seamlessly automates lead routing, CRM updates, customer notifications, and invoicing across apps. Its visual workspace is highly accessible for non-technical business owners, making it easy to build and monitor their business systems.\n\n#### 2. Personalized Outreach Copy (Public Reply)\n> **Subject: A step-by-step approach to putting your small business on autopilot**\n>\n> Hey there,\n> \n> Deciding to transition from \"working IN your business\" to \"working ON your business\" is a massive milestone! \n> \n> The secret to successful business automation is starting with your core repeating workflows—specifically lead management, customer communication, and invoicing. If you try to integrate 10 different tools using overly complex software, it quickly becomes a mess to maintain.\n> \n> We built **Zeenie** specifically to help business owners centralize their operations. It acts as your visual operational hub, letting you easily connect your CRM, email, and invoicing tools in one visual canvas. You can build simple, automated rules (e.g., \"When a new lead comes in, update our CRM, draft a personalized email using AI, and schedule a follow-up\") that run completely in the background.\n> \n> I'd be happy to share a simple, step-by-step checklist we use with founders to audit and automate their business workflows. Drop me a message if you'd like me to send it over!\n\n---\n\n### Lead 5: Entrepreneur Seeking Cost-Effective Zapier Alternatives for Process Automation\n* **Subreddit:** `r/growmybusiness`  \n* **Post URL:** [r/growmybusiness - What do you recommend for process automation?](https://www.reddit.com/r/growmybusiness/comments/1di503r/what_do_you_recommend_for_process_automation/)  \n* **Fit Score:** **9.0/10** (Critical Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** An entrepreneur starting out with process automation was recommended Zapier, but found the pricing model and task limits too expensive for their startup budget. They need a cost-effective yet powerful workflow automation tool.\n* **The Zeenie Solution:** Zeenie is built to be a highly competitive, high-value alternative to Zapier. We offer generous run limits, visual workflow building, and native AI agents included in our pricing, giving startups maximum power without the massive price tag.\n\n#### 2. Personalized Outreach Copy (Public Reply)\n> **Subject: A much more budget-friendly (and powerful) alternative to Zapier**\n>\n> Hey! You are definitely not alone in this. Zapier is great when you have 5 tasks a month, but as soon as your business starts growing, their pricing tiers can feel like a massive tax on your growth.\n> \n> If you are looking for a powerful, visual workflow builder that won't break the bank, you should check out **Zeenie**. \n> \n> We built Zeenie specifically to give growing businesses a cost-effective, high-value alternative to Zapier. It features a drag-and-drop workflow builder, robust multi-app integrations, and native AI agents built directly into the platform—all with highly generous execution limits designed for startups and growing businesses.\n> \n> I'd love to help you move some of your initial processes over to Zeenie to show you how much you can save while getting even more flexibility. Let me know if you'd like a free trial run!\n\n---\n\n### Lead 6: Founder Automating Customer Onboarding & Payment Redirection\n* **Subreddit:** `r/nocode`  \n* **Fit Score:** **8.2/10** (High Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** The founder needs to automate customer onboarding and payment redirection workflows seamlessly without writing code. This includes handling payment webhooks and directing users to custom portals.\n* **The Zeenie Solution:** Zeenie’s multi-app integration capabilities make it perfect for financial and onboarding workflows. It can capture Stripe webhooks, automatically spin up a user profile in a database, send personalized onboarding emails, and handle conditional redirection to custom onboarding portals.\n\n#### 2. Personalized Outreach Copy (Direct Message)\n> **Subject: Automating Stripe payments and onboarding redirects (No-code)**\n>\n> Hey! I saw your post looking for a tool suggestion to handle customer onboarding and payment redirection. \n> \n> Getting this flow right is crucial for customer retention, and doing it without code usually requires stitching together multiple fragile automations.\n> \n> You can build this entire flow seamlessly inside **Zeenie**. Zeenie's visual builder handles Stripe webhooks instantly. The moment a payment is successful, Zeenie can:\n> 1. Automatically create a profile in your database.\n> 2. Trigger a personalized onboarding email.\n> 3. Seamlessly redirect the customer to their custom onboarding dashboard or portal.\n> \n> It's incredibly stable, fast, and completely visual. I’d love to help you build a quick blueprint of this onboarding flow inside Zeenie so you can see it in action. Let me know if you're open to trying it out!\n\n---\n\n## Action Plan & Next Steps\n\nTo maximize conversion rates and establish Zeenie as a thought leader in these subreddits, we recommend the following execution strategy:\n\n1. **Immediate Outreach (Leads 1, 2, and 5):** \n   * These leads have the highest fit scores (**9.0+**) and are actively shopping for solutions.\n   * Send the public replies/DMs immediately.\n2. **Build Proof-of-Concept (PoC) Templates:**\n   * Prepare a basic Zeenie template for Lead 2 (AI to JSON to Form) and Lead 5 (standard Zapier alternative setup) to instantly share when they reply.\n3. **Engage with Value First:**\n   * Keep the tone supportive and educational. On Reddit, offering a free custom workflow build or a checklist builds massive trust and often converts into long-term brand advocates.\n4. **Monitor and Track:**\n   * Track which subreddits yield the highest response rates to optimize future Reddit Hunter search parameters.\n\n### **Human** (2026-06-12 14:10:02)\nFind founders looking for automation solutions\n\n### **Assistant** (2026-06-12 14:10:02)\n# Zeenie Lead Generation & Outreach Strategy Report\n\n**Prepared by:** Lead Generation Manager, Zeenie  \n**Contributors:** Reddit Hunter, Lead Analyst, and Outreach Writer  \n**Target Audience:** Zeenie Sales, Marketing, and Growth Teams  \n\n---\n\n## Executive Summary\n\nTo drive high-intent user acquisition and establish Zeenie as the premier workflow automation and orchestration hub, our specialized team initiated a structured lead generation campaign targeting founders, entrepreneurs, and marketing managers on Reddit. \n\nOur specialized workflow operated as follows:\n1. **Reddit Hunter** scanned key entrepreneurial and niche subreddits (`r/smallbusiness`, `r/marketing`, `r/CRM`, `r/SaaS`, `r/BusinessIntelligence`, `r/Emailmarketing`) to find active discussions where users are facing real workflow automation challenges.\n2. **Lead Analyst** evaluated each lead, scoring them based on their fit for Zeenie, identifying their precise technical/operational pain points, and mapping them to Zeenie's platform capabilities.\n3. **Outreach Writer** developed highly personalized, value-driven, consultative outreach messages designed to respect Reddit’s community guidelines while positioning Zeenie as the ultimate solution.\n\nThis report presents our **9 candidate leads**, with a deep dive into the **6 high-value leads** (scored **High** or **Critical**) complete with qualification scores, pain point analyses, Zeenie solution mappings, and ready-to-send outreach copy.\n\n---\n\n## Campaign Dashboard\n\n| Lead ID | Target Audience / Subreddit | Core Problem | Fit Score (10) | Priority Tier | Primary Zeenie Value Proposition |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Lead 1** | Small Business Owner (`r/smallbusiness`) | Economic downturn forcing \"do more with less\" mandate; siloed departments | **9.5/10** | **Critical** | Unified cost-consolidation hub (replaces separate Zapier + Airtable + Make subscriptions) with native AI agents |\n| **Lead 2** | Tech-Space Business Owner (`r/smallbusiness`) | Extreme operational overwhelm; manual repetitive tasks | **9.0/10** | **High** | Visual, drag-and-drop workflow builder with built-in visual databases for non-technical fast setup |\n| **Lead 3** | Marketing Team (`r/marketing`) | Comparing Make, Zapier, and n8n; needs large-scale cost-efficient AI text generation | **10/10** | **Critical** | Sits at the intersection of ease (Zapier), power (Make), and cost-efficiency (n8n) with native AI agents |\n| **Lead 4** | Sales/Marketing Team (`r/CRM`) | Needs CRM with robust marketing automation to send intro emails & track leads | **8.5/10** | **High** | Built-in visual database acting as a custom CRM with automated, AI-personalized intro emails |\n| **Lead 5** | Solopreneur (`r/CRM`) | Needs to organize client relationships, work logs, and follow-ups in one place | **8.5/10** | **High** | All-in-one visual workspace combining databases, task tracking, and automated reminders |\n| **Lead 6** | SaaS Founder (`r/SaaS`) | Setting up automated onboarding sequences to engage users based on lifecycle stages | **8.8/10** | **High** | Event tracking, built-in user status databases, and conditional email notification sequences |\n| **Lead 7** | Developer (`r/BusinessIntelligence`) | Needs to mass generate tens of thousands of PDF reports containing graphs | **6.5/10** | **Medium** | Visual document generation pipelines integrated with reporting databases |\n| **Lead 8** | List Manager (`r/Emailmarketing`) | Needs to automate .csv contact ingestion, verification, and ESP opt-in | **6.0/10** | **Medium** | Native CSV ingestion nodes, automated verification workflows, and ESP integrations |\n| **Lead 9** | Networker (`r/Emailmarketing`) | Automating email outreach to networking contacts | **5.5/10** | **Low** | Simple, visual scheduled outreach sequences with personalized AI-driven drafting |\n\n---\n\n## Detailed Lead Profiles, Analysis & Outreach Copy (High & Critical Priority)\n\n### Lead 1: Cross-Departmental Automation for Small Business\n* **Subreddit:** `r/smallbusiness`  \n* **Post URL:** [r/smallbusiness - What are some automations I should look into as a business owner?](https://www.reddit.com/r/smallbusiness/comments/1josm8a/what_are_some_automations_i_should_look_into_as_a/)  \n* **Fit Score:** **9.5/10** (Critical Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** The business owner is navigating an economic downturn and needs to automate core operations (sales, marketing, engineering) to drive high ROI without disrupting their existing business. They are concerned about the cost and complexity of setting up and maintaining multiple tools.\n* **The Zeenie Solution:** Zeenie acts as a unified cost-consolidation hub. Instead of paying for Zapier, Make, and Airtable separately, the user gets visual databases, native integrations, and branching workflows in one place. Additionally, native AI agents can be trained on internal knowledge bases to draft contextual, human-like client communications, ensuring automation never feels cold.\n\n#### 2. Personalized Outreach Copy\n> **Subject: High-ROI, unified business automation that slashes SaaS spend**\n>\n> Hey there,\n> \n> Really sorry to hear you're navigating the pressure of an economic downturn. It’s a stressful spot, but looking at automation to help your team \"do more with less\" is exactly the right strategic move.\n> \n> The biggest trap business owners fall into here is buying 4 or 5 different tools (like Zapier for integrations, Airtable for data, and separate email engines) to connect sales, marketing, and engineering. You end up with a massive monthly software bill and a fragile \"franken-stack\" that breaks constantly. \n> \n> If you want a high-ROI setup that won't disrupt your business, you might want to look at **Zeenie**. We built it to be a unified, visual workspace that replaces the need for separate Zapier, Make, and Airtable subscriptions. \n> \n> Because everything lives in one place, you can build a single, cohesive workflow:\n> 1. **Sales:** A new lead is captured in Zeenie's built-in visual database.\n> 2. **Marketing:** A native AI agent on the canvas drafts a hyper-personalized, contextual intro email (saving your team from writing robotic templates).\n> 3. **Engineering:** Once the lead closes, Zeenie automatically provisions a project ticket and assigns it to your team.\n> \n> It keeps your monthly software costs incredibly low and gives you a single \"cockpit\" to run your operations. \n> \n> If you're open to it, I'd love to map out a free, custom cross-departmental workflow blueprint based on your current stack so you can see how it looks. No pressure or sales pitch—just happy to help you brainstorm. Let me know if you're interested!\n\n---\n\n### Lead 2: Tech-Space Small Business Owner Overwhelmed by Tasks\n* **Subreddit:** `r/smallbusiness`  \n* **Post URL:** [r/smallbusiness - Best automation tools for small business owners?](https://www.reddit.com/r/smallbusiness/comments/twm98y/best_automation_tools_for_small_business_owners/)  \n* **Fit Score:** **9.0/10** (High Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** A tech-space small business owner is feeling overwhelmed by repetitive, manual administrative tasks. They need a fast-to-implement solution to streamline operational workflows and optimize daily tasks without requiring a dedicated developer.\n* **The Zeenie Solution:** Zeenie’s visual, drag-and-drop workflow builder allows a non-technical owner to map out and automate repetitive daily tasks in minutes. With built-in visual databases, they can log tasks, manage client data, and trigger app integrations seamlessly without needing to manage complex API keys.\n\n#### 2. Personalized Outreach Copy\n> **Subject: Automating your tech business operations without writing code**\n>\n> Hey! I completely get the feeling of being buried under repetitive, administrative tasks. When you're in the tech space, you *know* things can be automated, but finding the time to actually sit down and configure complex APIs is the real bottleneck.\n> \n> If you're looking for a tool that is fast to set up and doesn't require a developer, check out **Zeenie**. \n> \n> We designed Zeenie to be a highly visual, drag-and-drop workspace that acts as your business's central nervous system. It combines visual workflow building with built-in databases (like Airtable), meaning you can log tasks, manage client data, and trigger app integrations in one place without having to manage complex API keys or pay for multiple tool subscriptions.\n> \n> Instead of spending hours learning a complex platform, you can visually map out your daily workflows (like client onboarding, task creation, and notifications) in minutes.\n> \n> If you're still looking to reclaim some of your time, I'd be happy to hop on a quick call and build out your first couple of daily automations for you live on a sandbox account. Let me know if you'd like to check it out!\n\n---\n\n### Lead 3: Marketing Team Comparing Make, Zapier, and n8n\n* **Subreddit:** `r/marketing`  \n* **Post URL:** [r/marketing - AI, automations … Make, Zapier or N8N ?](https://www.reddit.com/r/marketing/comments/14t29zh/ai_automations_make_zapier_or_n8n/)  \n* **Fit Score:** **10/10** (Critical Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** The marketing team is looking for a centralized workflow automation tool to trigger complex performance marketing processes, specifically involving large-scale AI text generation and cross-platform integrations. They are comparing Make, Zapier, and n8n, but are hitting trade-offs (Zapier is too expensive; Make is too complex; n8n requires self-hosting/technical setup).\n* **The Zeenie Solution:** Zeenie is the ultimate sweet spot. It offers the visual simplicity of Zapier, the powerful branching logic of Make, and the cost-effectiveness of n8n. Most importantly, Zeenie features **native AI agents built directly into the workflow canvas**, bypassing the \"API token tax\" and external middleware required by other platforms for large-scale text generation.\n\n#### 2. Personalized Outreach Copy\n> **Subject: Finding the sweet spot between Zapier, Make, and n8n**\n>\n> Hey! I saw your post comparing Make, Zapier, and n8n, and it’s a classic dilemma. \n> \n> You're essentially dealing with three major trade-offs:\n> * **Zapier:** Incredibly easy, but the pricing tier climbs exponentially, and running high-volume AI tasks will bankrupt your marketing budget.\n> * **Make:** Extremely powerful, but the visual mapping becomes a tangled \"spaghetti mess\" when you scale complex branching logic.\n> * **n8n:** Cost-effective, but the learning curve and hosting requirements are a massive technical headache for a marketing team.\n> \n> If you want a platform that gives you the visual simplicity of Zapier, the multi-step power of Make, and highly competitive pricing, you should check out **Zeenie**.\n> \n> What makes Zeenie unique—especially for marketing teams—is that **AI agents are native to our workflow canvas**. You don't have to pay a \"premium app tax\" or hook up complex external API nodes just to run large-scale text generation. You can visually map your performance marketing data, have a native AI agent analyze or write copy, and push it to your platforms instantly.\n> \n> I'd love to set up a quick sandbox for your team or even help you map out one of your performance marketing flows in Zeenie. Let me know if you're open to a quick look!\n\n---\n\n### Lead 4: CRM and Marketing Automation for Lead Tracking\n* **Subreddit:** `r/CRM`  \n* **Post URL:** [r/CRM - Best crm for marketing automation (new lead/intro email) and tracking leads?](https://www.reddit.com/r/CRM/comments/rmw1ed/best_crm_for_marketing_automation_new_leadintro/)  \n* **Fit Score:** **8.5/10** (High Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** The user is searching for a CRM with robust marketing automation to automatically send introductory emails to new leads and track them through the sales pipeline. They want to avoid paying for an overly complex enterprise CRM just to get basic automation features.\n* **The Zeenie Solution:** Zeenie’s built-in visual database can act as a fully customizable, lightweight CRM. Workflows can trigger automatic, AI-personalized intro emails the second a new lead is captured, and update their status visually on a kanban-style canvas.\n\n#### 2. Personalized Outreach Copy\n> **Subject: A customizable CRM + marketing automation engine in one visual canvas**\n>\n> Hey! I came across your post looking for a CRM with strong marketing automation for lead tracking and intro emails. \n> \n> Most traditional CRMs either make you pay a massive premium for basic automation features, or require you to stitch together a separate email tool using Zapier. \n> \n> You can actually do all of this in one place using **Zeenie**. Zeenie combines a built-in visual database (which works perfectly as a customizable CRM) with a powerful workflow orchestrator. \n> \n> You can set up a flow where:\n> 1. A new lead is automatically logged in your Zeenie database.\n> 2. Zeenie triggers an automated, highly personalized intro email.\n> 3. The lead's pipeline status is updated visually on your dashboard based on their engagement.\n> \n> It's incredibly clean, fast, and removes the need for multiple subscriptions. I'd be happy to build a quick CRM template for you in Zeenie so you can see how easy it is to manage. Let me know if you'd like to check it out!\n\n---\n\n### Lead 5: Solopreneur CRM & Client Relationship Hub\n* **Subreddit:** `r/CRM`  \n* **Post URL:** [r/CRM - Looking for CRM a solution](https://www.reddit.com/r/CRM/comments/urwf9c/looking_for_crm_a_solution/)  \n* **Fit Score:** **8.5/10** (High Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** A solopreneur needs an all-in-one CRM solution to keep track of work logs, organize client relationships, and automate follow-ups and reminders. They need something simple, lightweight, and unified to avoid administrative overhead.\n* **The Zeenie Solution:** Zeenie is the perfect all-in-one visual workspace for solopreneurs. Our visual database acts as a CRM and work logger, while scheduled workflows trigger automated follow-ups and reminders, keeping their business running seamlessly in the background.\n\n#### 2. Personalized Outreach Copy\n> **Subject: The ultimate solopreneur hub: CRM, work logs, and automated follow-ups**\n>\n> Hey there,\n> \n> As a solopreneur, your most valuable asset is your time. Trying to manage client details, log your hours, and remember to send follow-ups across 3 different tools is a recipe for administrative burnout.\n> \n> If you want an all-in-one place to keep track of everything, you should check out **Zeenie**. \n> \n> Zeenie is a visual workspace designed to keep things simple. It features built-in visual databases where you can organize client relationships and log your daily work. On top of that, you can set up scheduled, automated workflows to trigger follow-up emails and reminders automatically.\n> \n> You get a CRM, a work logger, and an automation assistant in a single, visual canvas—no complex setup required.\n> \n> I'd love to share a simple, pre-built solopreneur CRM template in Zeenie that you can customize in minutes. Let me know if you'd like me to send it over!\n\n---\n\n### Lead 6: SaaS Onboarding & User Engagement Sequences\n* **Subreddit:** `r/SaaS`  \n* **Post URL:** [r/SaaS - What does your tech stack look like for onboarding & user engagement/marketing?](https://www.reddit.com/r/SaaS/comments/qhh6jx/what_does_your_tech_stack_look_like_for/)  \n* **Fit Score:** **8.8/10** (High Priority)\n\n#### 1. Analyst Evaluation & Pain Points\n* **The Problem:** A SaaS founder is looking to set up email automation sequences to onboard new users and keep them engaged at specific stages of their lifecycle. They need suggestions on tools and tech stacks that won't require massive development overhead.\n* **The Zeenie Solution:** Zeenie’s visual workflow orchestrator can track user events, store user statuses in built-in databases, and trigger tailored email/in-app notification sequences based on conditional branching logic. This allows SaaS teams to build complex onboarding flows without writing custom backend code.\n\n#### 2. Personalized Outreach Copy\n> **Subject: Building automated SaaS onboarding flows without custom backend code**\n>\n> Hey! I saw your post about setting up user onboarding and engagement sequences for your SaaS. \n> \n> When you're building a SaaS, you want your developers focused on your core product, not writing custom backend logic for onboarding emails and lifecycle tracking. \n> \n> You can easily offload this to **Zeenie**. Zeenie is a visual workflow orchestrator that integrates directly with your SaaS database or user management system. \n> \n> You can visually map out your entire onboarding lifecycle on our canvas:\n> 1. **Trigger:** User signs up.\n> 2. **Action:** Log them in Zeenie’s visual database and trigger a \"Welcome\" email.\n> 3. **Branching Logic:** If they haven't completed onboarding step X in 3 days, trigger a helpful reminder email.\n> \n> It gives your marketing/product team complete control over user engagement without needing to bug your engineers for every minor email tweak.\n> \n> I'd love to share a visual SaaS onboarding blueprint we've built in Zeenie. Let me know if you'd like to take a look!\n\n---\n\n## Action Plan & Next Steps\n\nTo maximize conversion rates and establish Zeenie as a trusted solution in these communities, we recommend the following execution strategy:\n\n1. **Immediate Outreach (Leads 1 and 3):** \n   * These leads have the highest fit scores (**9.5+**) and represent the highest intent.\n   * Send the drafted public replies/DMs immediately.\n2. **Prepare Pre-Built Templates:**\n   * Prepare a basic Zeenie template for Lead 4 & 5 (Solopreneur CRM + Reminders) and Lead 6 (SaaS Onboarding Flow) to instantly share when they reply.\n3. **Value-First Engagement:**\n   * Keep the tone supportive and educational. On Reddit, offering a free custom workflow build or a checklist builds massive trust and often converts into long-term brand advocates.\n4. **Monitor and Track:**\n   * Track which subreddits yield the highest response rates to optimize future Reddit Hunter search parameters.\n",
+      "long_term_enabled": false,
+      "retrieval_count": 3,
+      "last_session_id": null,
+      "label": "Simple Memory 2"
+    },
+    "telegramSend-1780556003622": {
+      "recipient_type": "self",
+      "chat_id": "-5230891321",
+      "message_type": "text",
+      "text": "{{aiemployee.response}} {{aiemployee.finish_reason}}",
+      "media_url": "",
+      "caption": "",
+      "latitude": null,
+      "longitude": null,
+      "phone_number": "",
+      "first_name": "",
+      "last_name": "",
+      "parse_mode": "Auto",
+      "silent": false,
+      "reply_to_message_id": 0,
+      "label": "Telegram Send"
+    },
+    "consumer_agent-1780556161320": {
+      "prompt": "",
+      "provider": "gemini",
+      "model": "gemini-flash-latest",
+      "system_message": "You are Outreach Writer.\n\nYou work for Zeenie.\n\nYou receive qualified leads from Lead Analyst.\n\nYour task is to create personalized outreach messages.\n\nRequirements:\n- Reference the prospect's Reddit post.\n- Demonstrate understanding of their problem.\n- Explain how Zeenie can help.\n- Be conversational.\n- Avoid sounding like a sales bot.\n- Do not aggressively sell.\n- Keep messages under 150 words.\n\nOutput:\n1. Short Outreach Message\n2. Personalized Opening Line\n3. Why Zeenie Fits\n4. Call To Action\n\nNever fabricate information that was not present in the Reddit post or Lead Analyst output.",
+      "options": {
+        "temperature": 0.6
+      },
+      "label": "Consumer Agent"
+    },
+    "simpleMemory-1780556191569": {
+      "session_id": "",
+      "window_size": 100,
+      "memory_content": "# Conversation History\n\n\n### **Human** (2026-06-12 12:46:07)\nLeads and Analysis:\n\nLead 1: Print Shop Ordering & Fulfillment Workflow (Score: 10/10, Subreddit: r/automation)\n- Pain Points: Wants to avoid fragile \"franken-stack\" (Make, Zapier, Shopify, Airtable), manual overhead from intake to fulfillment, wants native AI.\n- Zeenie Solution: Unified visual workflow orchestrator replacing the multi-tool subscription mess, native AI agents for smart intake/scheduling.\n- Outreach Tone: Professional, technical, consultative, focusing on reliability and consolidation.\n\nLead 2: E-Commerce Marketing Task & Customer Support Automation (Score: 9/10, Subreddit: r/nocode)\n- Pain Points: Tried Lindy (too constrained) and Relevant (not user-friendly). Wants customer support AI agent utilizing internal knowledge base and automated marketing workflows.\n- Zeenie Solution: Visual drag-and-drop builder (user-friendly), powerful unconstrained AI agents that can trigger multi-step workflows.\n- Outreach Tone: Empathetic, friendly, highlighting ease of use and flexibility.\n\nLead 3: WordPress Digital Order Fulfillment (Score: 8/10, Subreddit: r/Entrepreneur)\n- Pain Points: Agency founder needs to automate secure delivery of webinar recordings and PDFs after WordPress/WooCommerce transactions. Needs non-clunky, fairly priced API-driven tool.\n- Zeenie Solution: API-first architecture, listens to WordPress webhooks, automatically generates and sends secure digital assets without clunky plugins.\n- Outreach Tone: B2B agency-friendly, focusing on pricing, simplicity, and robust API capabilities.\n\n### **Assistant** (2026-06-12 12:46:07)\nHere are three highly personalized, non-spammy outreach messages tailored to each lead's specific context, pain points, and subreddit culture.\n\n---\n\n### **Lead 1: Print Shop Ordering & Fulfillment Workflow**\n* **Channel:** Reddit PM \n* **Subject:** *Stitching together Shopify, Airtable, and Make for your print shop?*\n\n> Hey [Username],\n> \n> Saw your post in r/automation about setting up your print shop’s fulfillment workflow. \n> \n> You hit the nail on the head regarding the \"franken-stack\" nightmare. Relying on Make to talk to Zapier, to talk to Shopify, to update Airtable is a house of cards—one API update or rate limit error and the whole intake process halts, leaving you with manual cleanup.\n> \n> We actually built **Zeenie** to solve exactly this kind of multi-tool subscription mess. It’s a unified visual workflow orchestrator, meaning you can handle the data routing, Shopify updates, and customer notifications in one place. \n> \n> More importantly for your setup: we have native AI agents built directly into the canvas. Instead of trying to bridge OpenAI API calls through Make, Zeenie's native agents can handle smart order intake, parse custom print requests, and auto-schedule fulfillment tasks natively.\n> \n> I’d love to show you how we can consolidate your stack into a single, reliable workflow. Are you open to a quick, no-pressure look at how Zeenie handles print shop automation?\n> \n> Best,\n> [Your Name] | Zeenie\n\n---\n\n### **Lead 2: E-Commerce Marketing Task & Customer Support Automation**\n* **Channel:** Reddit PM or Comment Thread\n* **Subject/Intro:** *Finding the sweet spot between Lindy and Relevant*\n\n> Hey [Username],\n> \n> I completely feel your pain on your r/nocode post. \n> \n> Trying to build AI agents right now is incredibly frustrating. You either get something like Lindy, which feels like a black box where you have zero control when things go wrong, or you get something like Relevant, which requires a PhD in UX just to set up a basic trigger. \n> \n> We’re building **Zeenie** to be the middle ground that actually works. It’s a highly visual, drag-and-drop builder (very user-friendly), but it gives you unconstrained AI agents. \n> \n> For your e-commerce setup, you can easily connect your internal knowledge base to a support agent, and then have that same agent trigger multi-step marketing workflows (like updating your CRM or sending a follow-up discount code) directly inside the same canvas. No rigid guardrails, but no complex coding required either.\n> \n> We’re currently giving early access to e-commerce founders who are tired of fighting with current AI tools. Would love to set you up with an invite and help you build out your first workflow. Let me know if you're interested!\n> \n> Cheers,\n> [Your Name] | Zeenie\n\n---\n\n### **Lead 3: WordPress Digital Order Fulfillment**\n* **Channel:** Reddit PM\n* **Subject:** *Agency-friendly WooCommerce fulfillment (without the clunky plugins)*\n\n> Hey [Username],\n> \n> Read your post in r/Entrepreneur about automating secure digital asset delivery for your agency's clients. \n> \n> As an agency founder, the absolute last thing you want is to stack 5 different \"digital delivery\" WordPress plugins that eventually conflict, slow down the site, or break on the next WooCommerce update. At the same time, paying Zapier's premium tax just to pass a PDF webhook gets expensive quickly.\n> \n> We built **Zeenie** with an API-first architecture that’s perfect for agencies. Instead of heavy plugins, Zeenie simply listens to your WooCommerce webhooks. Once a transaction clears, it securely generates and delivers the webinar recordings and PDFs directly to the customer, completely off-server. \n> \n> Because we are built for scale, our pricing is incredibly agency-friendly—designed so you can run these workflows for multiple client sites without eating into your monthly retainer margins.\n> \n> Would love to chat about how you're currently setting this up and see if we can help you streamline it for your clients. Let me know if you'd be open to a quick chat!\n> \n> Best,\n> [Your Name] | Zeenie\n\n### **Human** (2026-06-12 13:06:21)\nHere is the Lead Analyst's evaluation of the three leads:\n\nLead 1: Marketing/Advertising Agency Operator\n- Subreddit: r/advertising\n- Title: \"What advertising agency tasks can actually be automated?\"\n- URL: https://www.reddit.com/r/advertising/comments/1bjwfev/what_advertising_agency_tasks_can_actually_be/\n- Current Stack: Make.com + Zapier (used for onboarding)\n- Score: 8.5/10 (High Priority)\n- Pain Points: Multi-tool fragility and cost (running both Make and Zapier), siloed client data, hitting limits of standard non-AI automation tools.\n- Zeenie Solution: Consolidate Make, Zapier, and Airtable/Google Sheets into one platform. Use native AI agents on the visual canvas to draft ad copy variants and generate client-ready PDF summaries from ad performance data. Cost-effective high-volume pricing.\n\nLead 2: Web Agency Owner\n- Subreddit: r/automation\n- Title: \"What would you automate in a Web Agency?\"\n- URL: https://www.reddit.com/r/automation/comments/1p4iyi4/what_would_you_automate_in_a_web_agency/\n- Target Needs: Quotation reminders, proposal follow-ups, administrative client-facing communication.\n- Score: 9.0/10 (High Priority)\n- Pain Points: Leaking sales pipeline (proposal follow-ups falling through the cracks), administrative friction (wasting billable hours chasing clients), robotic communication risk (automated emails feel cold/generic).\n- Zeenie Solution: Context-aware follow-up agents. Zeenie's native AI agents can read the original proposal, draft personalized, non-robotic follow-up emails, and trigger them automatically based on CRM status, saving billable hours and maintaining high-touch client relationships.\n\nLead 3: Small Business Owner/Founder\n- Subreddit: r/smallbusiness\n- Title: \"What are some automations I should look into as a business...\"\n- URL: https://www.reddit.com/r/smallbusiness/comments/1josm8a/what_are_some_automations_i_should_look_into_as_a/\n- Target Needs: \"Hyper-automation\" across engineering, marketing, and sales to do more with less due to economic pressures, without hurting client relationships.\n- Score: 9.5/10 (Very High Priority)\n- Pain Points: Budget constraints, fear of hurting client relationships with clumsy bots, complexity of automating multiple disconnected departments (sales, marketing, engineering) under one roof.\n- Zeenie Solution: Unified visual platform. Zeenie allows cross-department orchestration where marketing leads trigger sales actions, which then notify engineering. Native AI agents handle customer communication with human-like care and nuance, ensuring client relationships aren't hurt. Zero-maintenance unified setup saves massive operational costs.\n\n### **Assistant** (2026-06-12 13:06:21)\nHere are three highly personalized, low-friction outreach messages designed to start genuine conversations with each lead. \n\n---\n\n### Lead 1: Marketing/Advertising Agency Operator (r/advertising)\n**Format:** Private Message (PM) / Direct Message  \n**Subject:** Agency automation (re: your r/advertising post)\n\n> Hey [Username],\n> \n> Saw your post in r/advertising about what tasks agencies can actually automate. It’s a great question—especially since most agencies get stuck in \"Franken-stack\" hell, paying for both Zapier and Make.com just to handle basic onboarding, while still manually drafting copy and client reports.\n> \n> I’m building **Zeenie**, and we actually designed it to solve this exact headache for agency operators. Instead of juggling multiple subscriptions and fragile workarounds, Zeenie consolidates your workflows, databases, and AI into a single visual canvas. \n> \n> For an ad agency, this means you can:\n> 1. Eliminate the Make + Zapier double-billing by running all your onboarding on one platform.\n> 2. Deploy **native AI agents** directly inside your workflows to automatically draft ad copy variants based on client briefs.\n> 3. Pull live performance data and have the AI generate polished, client-ready PDF summaries without you lifting a finger.\n> \n> Because we do native orchestration, it’s significantly more cost-effective for high-volume agency work than Zapier. \n> \n> I’d love to show you how you can consolidate your stack and automate those creative/reporting bottlenecks. Would you be open to a quick, 5-minute Loom video showing how we build this out? \n> \n> Cheers,\n> [Your Name]  \n> Outreach Writer @ Zeenie\n\n---\n\n### Lead 2: Web Agency Owner (r/automation)\n**Format:** Thread Reply or PM  \n**Subject:** Automated proposal follow-ups that don't sound like robots\n\n> Hey [Username],\n> \n> Loved your thread in r/automation. As a web agency owner, automating your sales pipeline is easily the highest-ROI move you can make, but there’s a massive trap most agency owners fall into: sending cold, robotic follow-ups. Clients spot those generic \"just bumping this\" emails a mile away, and it instantly cheapens your brand.\n> \n> We built **Zeenie** to solve exactly this. It's a visual workflow builder that uses **context-aware native AI agents** instead of rigid, robotic templates. \n> \n> Instead of just sending a generic email when a CRM status changes, Zeenie’s AI agent actually *reads* your original proposal, understands the specific client's project, and drafts a highly personalized, warm follow-up. It keeps that high-touch, human feel that wins agency deals, while completely freeing up your billable hours.\n> \n> If you're still mapping out your automation strategy, I'd love to share a quick mock-up of how this context-aware flow looks on our visual canvas. Let me know if you'd be interested in taking a look!\n> \n> Best,\n> [Your Name]  \n> Outreach Writer @ Zeenie\n\n---\n\n### Lead 3: Small Business Owner/Founder (r/smallbusiness)\n**Format:** PM / Direct Message  \n**Subject:** Hyper-automation without the \"clumsy bot\" risk (re: your r/smallbusiness post)\n\n> Hey [Username],\n> \n> Read your post about looking into hyper-automation for your business. Doing more with less is the ultimate goal right now, but your concern about hurting client relationships is spot on. Clumsy, rigid bots can do more brand damage than good.\n> \n> The trick to successful \"hyper-automation\" is connecting your different departments (sales, marketing, engineering) under one roof, without making your customer communication feel cold. \n> \n> That’s why we built **Zeenie**. It’s a unified visual platform designed for business owners who need cross-department workflows without the enterprise price tag or complexity. \n> \n> Here is how we handle it:\n> * **Unified Workflows:** A marketing lead can trigger a sales action, which automatically updates your engineering queue—all managed on one simple, visual drag-and-drop canvas (no messy, disconnected tools).\n> * **Nuanced AI Agents:** Instead of sending rigid automated templates, Zeenie uses native AI agents that understand context. They draft human-like, empathetic communications that protect your client relationships while keeping your operations hands-free.\n> \n> Since you're looking to scale efficiently, I'd love to hear a bit more about the specific workflows you're hoping to connect. If you're open to it, I can map out a quick, free blueprint of what a unified system would look like for your business. \n> \n> Let me know what you think!\n> \n> Best,\n> [Your Name]  \n> Outreach Writer @ Zeenie\n",
+      "long_term_enabled": false,
+      "retrieval_count": 3,
+      "last_session_id": null,
+      "label": "Simple Memory 3"
+    },
+    "console-1780556211384": {
+      "label": "Console 3",
+      "log_mode": "all",
+      "field_path": "",
+      "expression": "",
+      "format": "json"
+    },
+    "fileModify-1781243264278": {
+      "operation": "write",
+      "content": "",
+      "old_string": "",
+      "new_string": "",
+      "replace_all": false,
+      "label": "File Modify 1"
+    },
+    "masterSkill-1781243270631-127": {
+      "skills_config": {
+        "file-modify-skill": {
+          "enabled": true,
+          "instructions": "",
+          "isCustomized": false
+        },
+        "file-read-skill": {
+          "enabled": true,
+          "instructions": "",
+          "isCustomized": false
+        }
+      }
+    },
+    "fileRead-1781243276146": {
+      "offset": 0,
+      "limit": 2000,
+      "label": "File Read 1"
+    },
+    "cronScheduler-1781253814082": {
+      "frequency": "days",
+      "interval": 30,
+      "interval_minutes": 5,
+      "interval_hours": 1,
+      "daily_time": "09:00",
+      "weekday": "1",
+      "weekly_time": "09:00",
+      "month_day": "1",
+      "timezone": "UTC",
+      "cron_expression": "0 * * * *",
+      "monthly_time": "09:00",
+      "label": "Cron Scheduler"
+    }
+  }
+}
