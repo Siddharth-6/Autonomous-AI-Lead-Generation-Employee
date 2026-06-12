@@ -1,4 +1,4 @@
-# Autonomous-AI-Lead-Generation-Employee
+# Autonomous Multi-Agent Reddit Lead Generation System
 
 An autonomous multi-agent lead generation system built using **MachinaOS** that continuously discovers, qualifies, prioritizes, and nurtures high-intent business leads from Reddit.
 
